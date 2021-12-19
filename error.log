@@ -1,0 +1,7 @@
+[20-Dec-2021 00:12:17 Europe/Berlin] Error  
+[20-Dec-2021 00:12:17 Europe/Berlin] PHP Warning:  require_once(libs/app.php): Failed to open stream: No such file or directory in C:\xampp\htdocs\PruebaMegaRed\index.php on line 16
+[20-Dec-2021 00:12:20 Europe/Berlin] Error  
+[20-Dec-2021 00:12:20 Europe/Berlin] PHP Warning:  require_once(libs/app.php): Failed to open stream: No such file or directory in C:\xampp\htdocs\PruebaMegaRed\index.php on line 16
+[20-Dec-2021 00:12:52 Europe/Berlin] Error  
+[20-Dec-2021 00:13:12 Europe/Berlin] App php
+[20-Dec-2021 00:16:21 Europe/Berlin] App php
