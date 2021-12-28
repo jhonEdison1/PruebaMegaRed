@@ -1,0 +1,53 @@
+{
+    "sites":[
+        {
+            "site": "",
+            "access": "public",
+            "role": ""
+        },
+        {
+            "site": "signup",
+            "access": "public",
+            "role": ""
+        },
+        {
+            "site": "DashboardAdmin",
+            "access": "private",
+            "role": "admin"
+        },
+        {
+            "site": "Productos",
+            "access": "private",
+            "role": "user"
+        },
+        {
+            "site": "Dashboard",
+            "access": "private",
+            "role": "user"
+        },
+        {
+            "site": "User",
+            "access": "private",
+            "role": "user"
+        },
+        {
+            "site": "RegistroProductos",
+            "access": "private",
+            "role": "user"
+        },
+        {
+            "site": "Compra",
+            "access": "private",
+            "role": "user"
+        }
+
+    ],
+    "default-sites":{
+        "user": "Dashboard",
+        "admin": "DashboardAdmin"
+    }
+
+
+
+
+}
