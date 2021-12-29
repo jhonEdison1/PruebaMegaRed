@@ -1,9 +1,10 @@
 <?php
-    $user = $this->d['user'];
+
+
+$user = $this->d['user'];
 
 
 ?>
-
 
 <!DOCTYPE html>
 <html lang="en">
@@ -11,7 +12,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Perfil Usuario</title>
+    <title>Profile Admin</title>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css" integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn" crossorigin="anonymous">
 </head>
 <body>
@@ -19,14 +20,16 @@
     <a class="navbar-brand"><?php echo $user->getNombre() ?></a>  
     <ul class="nav nav-pills">
       <li class="nav-item">
-            <a class="nav-link active"  href="<?php echo constant('URL') . '/User'; ?>">Perfil</a>
+            <a class="nav-link active"  href="<?php echo constant('URL') . '/Admin/profile/'; ?>">Perfil</a>
         </li>
         <li class="nav-item ">
-            <a class="nav-link  " href="<?php echo constant('URL') . '/Dashboard'; ?>">Productos</a>
+            <a class="nav-link  " href="<?php echo constant('URL') . '/Admin'; ?>">Usuarios</a>
         </li>
-        
+        <li class="nav-item">
+            <a class="nav-link" href="<?php echo constant('URL') . '/Admin/getBloqueados/'; ?>">Usuarios Bloqueados</a>
+        </li>
         <li class="nav-item">  
-            <a class="nav-link " href="<?php echo constant('URL') . '/Carrito'; ?>">Carrito </a>   
+            <a class="nav-link " href="<?php echo constant('URL') . '/Productos'; ?>" >Agregar Producto</a>   
         </li>
         <li class="nav-item">
             <a class="nav-link" href="#">Compras</a>
@@ -36,6 +39,7 @@
     <button class="btn btn-warning my-2 my-sm-0" type="submit">cerrar Sesion</button>
   </form>
 </nav>
+
 <div class="container p-4">
 <div class="text-center">
         <h2>Mi Perfil</h2>

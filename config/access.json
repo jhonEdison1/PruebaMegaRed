@@ -7,18 +7,18 @@
         },
         {
             "site": "signup",
-            "access": "public",
-            "role": ""
+            "access": "private",
+            "role": "admin"
         },
         {
-            "site": "DashboardAdmin",
+            "site": "Admin",
             "access": "private",
             "role": "admin"
         },
         {
             "site": "Productos",
             "access": "private",
-            "role": "user"
+            "role": "admin"
         },
         {
             "site": "Dashboard",
@@ -39,12 +39,17 @@
             "site": "Compra",
             "access": "private",
             "role": "user"
+        },
+        {
+            "site": "Carrito",
+            "access": "private",
+            "role": "user"
         }
 
     ],
     "default-sites":{
         "user": "Dashboard",
-        "admin": "DashboardAdmin"
+        "admin": "Admin"
     }
 
 

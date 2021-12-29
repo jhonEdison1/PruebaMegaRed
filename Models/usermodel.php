@@ -50,17 +50,18 @@ class UserModel extends Model implements IModel {
     public function getAll(){
         $items = [];
         try{
-            $query = $this->query('SELECT * FROM usuarios');
+            $query = $this->query('SELECT * FROM usuarios where rol = "user" AND permisos ="Activo"');
             while($p = $query->fetch(PDO::FETCH_ASSOC)){
                 $item = new UserModel();
-                
+                $item->from($p);
+                /*
                 $item->setId($p['id']);
                 $item->setNombre($p['nombre']);
                 $item->setApellido($p['apellido']);
                 $item->setEmail($p['email']);
                 $item->setPassword($p['password']);
                 $item->setPermisos($p['permisos']);
-                $item->setRole($p['rol']);
+                $item->setRole($p['rol']);*/
 
                 array_push($items, $item);
 
@@ -277,6 +278,59 @@ class UserModel extends Model implements IModel {
 
     public function getRole(){
         return $this->rol;
+    }
+
+
+
+    public function bloquearUsuario($id){
+        try{
+            error_log('USERMODEL::bloquearUsuario->id '.$id[0]);
+            $query = $this->prepare('UPDATE usuarios SET permisos = :permisos WHERE id = :id');
+            $query->execute([
+                'id' => $id[0],
+                'permisos' => 'Bloqueado'
+            ]);
+            return true;
+
+        }catch(PDOException $e){
+            error_log('USERMODEL::bloquearUsuario->PDOException '.$e->getMessage());
+            return false;
+        }
+
+    }
+
+    public function desbloquearUsuario($id){
+        try{
+            error_log('USERMODEL::desbloquearUsuario->id '.$id[0]);
+            $query = $this->prepare('UPDATE usuarios SET permisos = :permisos WHERE id = :id');
+            $query->execute([
+                'id' => $id[0],
+                'permisos' => 'Activo'
+            ]);
+            return true;
+
+        }catch(PDOException $e){
+            error_log('USERMODEL::desbloquearUsuario->PDOException '.$e->getMessage());
+            return false;
+        }
+
+    }
+
+    public function getBloqueados(){
+        $items = [];
+        try{
+            $query = $this->query('SELECT * FROM usuarios where rol = "user" AND permisos ="Bloqueado"');
+            while($p = $query->fetch(PDO::FETCH_ASSOC)){
+                $item = new UserModel();
+                $item->from($p);               
+                array_push($items, $item);
+            }
+            return $items;            
+        }catch(PDOException $e){
+            error_log('USERMODEL::getAll->PDOException '.$e->getMessage());
+            return false;
+        }
+
     }
 
 

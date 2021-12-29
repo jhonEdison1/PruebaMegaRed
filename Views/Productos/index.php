@@ -1,3 +1,7 @@
+<?php
+  $user = $this->d['user'];
+?>
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -8,10 +12,45 @@
     <title>Productos</title>
 </head>
 <body>
-<p><?php
-        $this->showMessages();   
-    ?></p>
+<nav class="navbar navbar-dark bg-dark">
+    <a class="navbar-brand"><?php echo $user->getNombre() ?></a>  
+    <ul class="nav nav-pills">
+      <li class="nav-item">
+            <a class="nav-link"  href="<?php echo constant('URL') . '/Admin/profile/'; ?>">Perfil</a>
+        </li>
+        <li class="nav-item ">
+            <a class="nav-link  " href="<?php echo constant('URL') . '/Admin'; ?>">Usuarios</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" href="<?php echo constant('URL') . '/Admin/getBloqueados/'; ?>">Usuarios Bloqueados</a>
+        </li>
+        <li class="nav-item">  
+            <a class="nav-link active" href="<?php echo constant('URL') . '/Productos'; ?>" >Agregar Producto</a>   
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" href="#">Compras</a>
+        </li>
+    </ul>
+  <form class="form-inline" action="<?php echo constant('URL');?>/user/cerrarSession" method="POST">
+    <button class="btn btn-warning my-2 my-sm-0" type="submit">cerrar Sesion</button>
+  </form>
+</nav>
+
     <div class="container">
+        <p>
+            <?php
+                $this->showMessages(); 
+            ?>
+        </p>
+        <div class="text-center">
+            <a href="<?php echo constant('URL') . '/Admin'; ?>" class="btn btn-info">Volver</a>
+        </div>
+        <div class="text-center">
+            <h1 >Panel Administracion</h1>
+            <h2>Agrega Un Producto</h2>
+        </div>
+       
+        
         <div class="row">
             <div class="col-lg-3">
              
@@ -39,7 +78,7 @@
                     <label for="estado">Estado</label>
                     <select class="form-control" id="estado" name="estado">
                       <option value="1">Activo</option>
-                      <option value="2">Agotado</option>                      
+                      <option value="0">Agotado</option>                      
                     </select>
                 </div>
                 <div class="form-group">

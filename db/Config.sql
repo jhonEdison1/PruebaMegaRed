@@ -37,3 +37,11 @@ create table if not exists ordenes(
     estado enum('0','1') NOT NULL,
     PRIMARY KEY (id)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8;
+
+create table if not exists intentosLogin(
+    id int (11) Not null AUTO_INCREMENT,
+    idUsuario int(11) NOT NULL,
+    fecha date NOT NULL,
+    intentos int(11) NOT NULL,
+    PRIMARY KEY (id)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8;

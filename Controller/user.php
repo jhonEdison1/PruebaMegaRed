@@ -38,8 +38,19 @@ class User extends SessionController {
 
         $this->user->setPassword($password);
         if($this->user->update()){ 
-            $this->redirect('User', [] );//success TODO: implementar el success
+            error_log('password actualizado' . $this->user->getRole());
+            if($this->user->getRole() === 'admin'){
+                $this->redirect('Admin', ['success' =>SuccessMessages::PASSWORD_UPDATE_SUCCESSFULLY] );
+            }else{
+                $this->redirect('Dashboard', ['success' =>SuccessMessages::PASSWORD_UPDATE_SUCCESSFULLY] );
+            }
+            //success TODO: implementar el success
         }
+    }
+
+    function cerrarSession(){
+        $this->logout();
+        $this->redirect('Login', [] );
     }
 
 

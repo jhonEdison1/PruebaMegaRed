@@ -15,6 +15,9 @@
     
         <div class="container">
             <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h1>Inicia Sesion</h1>
+                </div>
                 <div class="col-lg-3">
 
                 </div>
@@ -34,7 +37,7 @@
                         </div>
                         <div class="form-group">
                             <p>
-                                <input type="submit" class="btn btn-primary" value="Login">
+                                <input type="submit" class="btn btn-primary btn-block" value="Login">
                             </p>
                         </div>
                     </form>

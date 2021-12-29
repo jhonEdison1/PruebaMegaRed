@@ -38,7 +38,7 @@ class Signup extends SessionController{
               $this->redirect('signup', ['error' => ErrorMessages::ERROR_ADMIND_NEWUSER_EMAIL_EXISTS]);
            }else if($user->save()){
                //por el momento a login, luego al dashboard de admin
-                $this->redirect('', ['success' => SuccessMessages::USER_CREATE_SUCCESSFULLY]);
+                $this->redirect('Admin', ['success' => SuccessMessages::USER_CREATE_SUCCESSFULLY]);
 
            }else{
                 $this->redirect('signup', ['error' => ErrorMessages::ERROR_SINGUP_NEWUSER]);

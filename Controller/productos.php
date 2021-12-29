@@ -21,12 +21,12 @@ class Productos extends SessionController{
 
     function newProducto(){
         if(!$this->existPOST(['nombre', 'descripcion', 'precioBase', 'impuesto', 'estado', 'stock'])){ 
-            $this->redirect('Dashboard', [] );//error
+            $this->redirect('Admin', [] );//error
             return;
         }
         if($this->user === null){
            
-            $this->redirect('Dashboard', [] );//error
+            $this->redirect('Admin', [] );//error
             return;
 
         }
@@ -39,10 +39,14 @@ class Productos extends SessionController{
         $producto->setImpuesto((float)$this->getPOST('impuesto'));
         $producto->setEstado($this->getPOST('estado'));
         $producto->setStock($this->getPOST('stock'));
+        if($producto->getEstado() =='0' && $producto->getStock()>0){
+            $this->redirect('Admin', ['error' => ErrorMessages::ERROR_PRODUCT_STOCK_AND_ESTADO] );//error
+            return;
+        }
 
         $producto->save();
         error_log("aqui");
-        $this->redirect('Dashboard',  ['success' => SuccessMessages::PRODUCTO_CREATE_SUCCESSFULY] );//success        
+        $this->redirect('Admin',  ['success' => SuccessMessages::PRODUCTO_CREATE_SUCCESSFULY] );//success        
 
     }
 

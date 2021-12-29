@@ -15,6 +15,10 @@ class SessionController extends Controller{
    // private $defaultSites;
 
     private $user;
+/*
+    public function getValue(){
+        return $_SESSION[$this->session];
+    }*/
 
     public function __construct(){
         parent::__construct();
@@ -134,7 +138,7 @@ class SessionController extends Controller{
         for($i=0; $i < sizeof($this->sites); $i++ ){
             if($this->sites[$i]['role'] == $role){
                 ///verificar esto y posiblemente la diagonal
-                $url = '/PruebaMedaRed/' . $this->sites[$i]['site'];
+                $url = '/PruebaMegaRed/' . $this->sites[$i]['site'];
                 break;
 
             }

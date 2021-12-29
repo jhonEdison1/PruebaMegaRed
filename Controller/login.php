@@ -20,7 +20,7 @@
                 $email = $this->getPost('email');
                 $password = $this->getPost('password');
                 error_log("Login::authenticate->email: ".$email);
-                error_log("Login::authenticate->password: ".$password);
+                
 
                 if($email == '' || empty($email) ||  $password == '' || empty($password)){
                     $this->redirect('', ['error' => ErrorMessages::ERROR_LOGIN_DATA_EMPTY]);
