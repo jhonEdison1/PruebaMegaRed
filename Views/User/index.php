@@ -26,11 +26,12 @@
         </li>
         
         <li class="nav-item">  
-            <a class="nav-link " href="<?php echo constant('URL') . '/Carrito'; ?>">Carrito </a>   
+            <a class="nav-link " href="<?php echo constant('URL') . '/Orden'; ?>">Orden </a>   
         </li>
         <li class="nav-item">
-            <a class="nav-link" href="#">Compras</a>
+            <a class="nav-link" href="<?php echo constant('URL') . '/Compras'; ?>">Compras</a>
         </li>
+        
     </ul>
   <form class="form-inline" action="<?php echo constant('URL');?>/user/cerrarSession" method="POST">
     <button class="btn btn-warning my-2 my-sm-0" type="submit">cerrar Sesion</button>

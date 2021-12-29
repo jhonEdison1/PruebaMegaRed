@@ -52,6 +52,19 @@ require_once 'Models/productosmodel.php';
             
            
         }
+        public function search(){
+            if($this->existPOST(['nombre'])){
+            $nombre = $_POST['nombre'];             
+            $productos = new ProductosModel();
+            $productos = $productos->getProductsByNombre($nombre);
+            $this->view->render('Dashboard/search', [
+                'user' => $this->user,
+                'productos' => $productos
+            ]);
+
+            }
+            
+        }
 
         
 

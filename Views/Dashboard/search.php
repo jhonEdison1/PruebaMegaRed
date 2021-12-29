@@ -15,7 +15,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Dashboard</title>
+    <title>Search</title>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css" integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn" crossorigin="anonymous">
 </head>
 <body>
@@ -48,10 +48,9 @@
         <h1 style="text-align: center">
             Productos        
         </h1>
-        <form class="form-inline" action="<?php echo constant('URL');?>/Dashboard/search" method="POST">
-        <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search" name="nombre">
-        <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
-        </form>
+        <div class="text-center">
+            <a href="<?php echo constant('URL') . '/Dashboard'; ?>" class="btn btn-info">Volver</a>
+        </div>
             
         <div class="row p-4">
        

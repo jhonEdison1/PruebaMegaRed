@@ -45,3 +45,13 @@ create table if not exists intentosLogin(
     intentos int(11) NOT NULL,
     PRIMARY KEY (id)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8;
+
+create table if not exists compras(
+    id int (11) Not null AUTO_INCREMENT,
+    idUsuario int(11) NOT NULL,
+    productos json NOT NULL,
+    precio float(10,2) NOT NULL,
+    fecha date NOT NULL,
+    PRIMARY KEY (id)
+    
+) ENGINE=InnoDB DEFAULT CHARSET=utf8;

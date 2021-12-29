@@ -79,7 +79,7 @@ class ProductosModel extends Model implements IModel {
         public function getAll(){
                 $items = [];
                 try{
-                        $query = $this->query('SELECT * FROM productos');
+                        $query = $this->query('SELECT * FROM productos Where estado = "1"');
 
                         while($p = $query->fetch(PDO::FETCH_ASSOC)){
                                 $item = new ProductosModel();
@@ -195,6 +195,70 @@ class ProductosModel extends Model implements IModel {
                         $this->from($producto);
                         return $this;
                 } catch(PDOException $e){
+                    echo $e->getMessage();
+                    return false;
+                }
+        }
+
+        public function getProductsByNombre($nombre){
+                $items = [];
+                try{
+                        $query = $this->prepare('SELECT * FROM productos WHERE nombre LIKE :nombre');
+                        $query->execute([
+                                'nombre' => '%'.$nombre.'%'
+                        ]);
+                        while($p = $query->fetch(PDO::FETCH_ASSOC)){
+                                $item = new ProductosModel();
+                                $item->from($p);
+
+                                array_push($items, $item);
+
+                        }
+                        return $items;
+                                             
+
+                        
+                }catch(PDOException $e){
+                    echo $e->getMessage();
+                    return false;
+                }
+        }
+
+        function disminuirStock($id){
+                try{
+                $query = $this->prepare('UPDATE productos SET stock = stock - 1 WHERE id = :id');
+                        $query->execute([
+                                'id' => $id[0]
+                        ]);
+                        return true;
+                }catch(PDOException $e){
+                    echo $e->getMessage();
+                    return false;
+                }
+        }
+
+        function aumentarStock($id){
+                error_log("entro aqui con el prepare".$id );
+                try{
+                $query = $this->prepare('UPDATE productos SET stock = stock + 1, estado = "1" WHERE id = :id');
+                        $query->execute([
+                                'id' => $id
+                        ]);
+                        return true;
+                }catch(PDOException $e){
+                    echo $e->getMessage();
+                    return false;
+                }
+        }
+
+        function agotar($id){
+                try{
+                $query = $this->prepare('UPDATE productos SET estado = "0" WHERE id = :id');
+                        $query->execute([
+                                'id' => $id[0]
+                        ]);
+                        return true;
+                }catch(PDOException $e){
                     echo $e->getMessage();
                     return false;
                 }

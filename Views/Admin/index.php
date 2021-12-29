@@ -37,7 +37,10 @@ $user = $this->d['user'];
             <a class="nav-link" href="<?php echo constant('URL') . '/Productos'; ?>" >Agregar Producto</a>   
         </li>
         <li class="nav-item">
-            <a class="nav-link" href="#">Compras</a>
+            <a class="nav-link"href="<?php echo constant('URL') . '/Admin/getAllCompras/'; ?>">Compras</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link"href="<?php echo constant('URL') . '/Admin/getAllOrders/'; ?>">Ordenes</a>
         </li>
     </ul>
   <form class="form-inline" action="<?php echo constant('URL');?>/user/cerrarSession" method="POST">

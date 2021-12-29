@@ -1,54 +1,736 @@
-[29-Dec-2021 06:26:53 Europe/Berlin] App php
-[29-Dec-2021 06:26:53 Europe/Berlin] SESSION CONTROLLER::validateSession
-[29-Dec-2021 06:26:53 Europe/Berlin] Conexión a BD exitosa
-[29-Dec-2021 06:26:53 Europe/Berlin] SESSION CONTROLLER::getUserSessionData->Jhon
-[29-Dec-2021 06:26:53 Europe/Berlin] SESSION CONTROLLER::getCurrentPage->Carrito
-[29-Dec-2021 06:26:53 Europe/Berlin] SESSION CONTROLLER::getCurrentPage->Carrito
-[29-Dec-2021 06:26:53 Europe/Berlin] Conexión a BD exitosa
-[29-Dec-2021 06:26:53 Europe/Berlin] SESSION CONTROLLER::getUserSessionData->Jhon
-[29-Dec-2021 06:26:53 Europe/Berlin] Carrito::construct
-[29-Dec-2021 06:27:00 Europe/Berlin] App php
-[29-Dec-2021 06:27:00 Europe/Berlin] SESSION CONTROLLER::validateSession
-[29-Dec-2021 06:27:00 Europe/Berlin] Conexión a BD exitosa
-[29-Dec-2021 06:27:00 Europe/Berlin] SESSION CONTROLLER::getUserSessionData->Jhon
-[29-Dec-2021 06:27:00 Europe/Berlin] SESSION CONTROLLER::getCurrentPage->Dashboard
-[29-Dec-2021 06:27:00 Europe/Berlin] SESSION CONTROLLER::getCurrentPage->Dashboard
-[29-Dec-2021 06:27:00 Europe/Berlin] Conexión a BD exitosa
-[29-Dec-2021 06:27:00 Europe/Berlin] SESSION CONTROLLER::getUserSessionData->Jhon
-[29-Dec-2021 06:27:00 Europe/Berlin] Dashboard::construct
-[29-Dec-2021 06:27:00 Europe/Berlin] Dashboard::render
-[29-Dec-2021 06:27:00 Europe/Berlin] Conexión a BD exitosa
-[29-Dec-2021 06:27:00 Europe/Berlin] PHP Warning:  Undefined array key "items" in C:\xampp\htdocs\PruebaMegaRed\Views\Dashboard\index.php on line 4
-[29-Dec-2021 06:28:51 Europe/Berlin] App php
-[29-Dec-2021 06:28:51 Europe/Berlin] SESSION CONTROLLER::validateSession
-[29-Dec-2021 06:28:51 Europe/Berlin] Conexión a BD exitosa
-[29-Dec-2021 06:28:51 Europe/Berlin] SESSION CONTROLLER::getUserSessionData->Jhon
-[29-Dec-2021 06:28:51 Europe/Berlin] SESSION CONTROLLER::getCurrentPage->Dashboard
-[29-Dec-2021 06:28:51 Europe/Berlin] SESSION CONTROLLER::getCurrentPage->Dashboard
-[29-Dec-2021 06:28:51 Europe/Berlin] Conexión a BD exitosa
-[29-Dec-2021 06:28:51 Europe/Berlin] SESSION CONTROLLER::getUserSessionData->Jhon
-[29-Dec-2021 06:28:51 Europe/Berlin] Dashboard::construct
-[29-Dec-2021 06:28:51 Europe/Berlin] Dashboard::render
-[29-Dec-2021 06:28:51 Europe/Berlin] Conexión a BD exitosa
-[29-Dec-2021 06:28:51 Europe/Berlin] PHP Warning:  Undefined array key "items" in C:\xampp\htdocs\PruebaMegaRed\Views\Dashboard\index.php on line 4
-[29-Dec-2021 06:28:52 Europe/Berlin] App php
-[29-Dec-2021 06:28:52 Europe/Berlin] SESSION CONTROLLER::validateSession
-[29-Dec-2021 06:28:52 Europe/Berlin] Conexión a BD exitosa
-[29-Dec-2021 06:28:52 Europe/Berlin] SESSION CONTROLLER::getUserSessionData->Jhon
-[29-Dec-2021 06:28:52 Europe/Berlin] SESSION CONTROLLER::getCurrentPage->Carrito
-[29-Dec-2021 06:28:52 Europe/Berlin] SESSION CONTROLLER::getCurrentPage->Carrito
-[29-Dec-2021 06:28:52 Europe/Berlin] Conexión a BD exitosa
-[29-Dec-2021 06:28:52 Europe/Berlin] SESSION CONTROLLER::getUserSessionData->Jhon
-[29-Dec-2021 06:28:52 Europe/Berlin] Carrito::construct
-[29-Dec-2021 06:28:53 Europe/Berlin] App php
-[29-Dec-2021 06:28:53 Europe/Berlin] SESSION CONTROLLER::validateSession
-[29-Dec-2021 06:28:53 Europe/Berlin] Conexión a BD exitosa
-[29-Dec-2021 06:28:53 Europe/Berlin] SESSION CONTROLLER::getUserSessionData->Jhon
-[29-Dec-2021 06:28:53 Europe/Berlin] SESSION CONTROLLER::getCurrentPage->Dashboard
-[29-Dec-2021 06:28:53 Europe/Berlin] SESSION CONTROLLER::getCurrentPage->Dashboard
-[29-Dec-2021 06:28:53 Europe/Berlin] Conexión a BD exitosa
-[29-Dec-2021 06:28:53 Europe/Berlin] SESSION CONTROLLER::getUserSessionData->Jhon
-[29-Dec-2021 06:28:53 Europe/Berlin] Dashboard::construct
-[29-Dec-2021 06:28:53 Europe/Berlin] Dashboard::render
-[29-Dec-2021 06:28:54 Europe/Berlin] Conexión a BD exitosa
-[29-Dec-2021 06:28:54 Europe/Berlin] PHP Warning:  Undefined array key "items" in C:\xampp\htdocs\PruebaMegaRed\Views\Dashboard\index.php on line 4
+[29-Dec-2021 20:59:25 Europe/Berlin] App php
+[29-Dec-2021 20:59:25 Europe/Berlin] SESSION CONTROLLER::validateSession
+[29-Dec-2021 20:59:25 Europe/Berlin] Conexión a BD exitosa
+[29-Dec-2021 20:59:25 Europe/Berlin] SESSION CONTROLLER::getUserSessionData->Diego
+[29-Dec-2021 20:59:25 Europe/Berlin] SESSION CONTROLLER::getCurrentPage->Orden
+[29-Dec-2021 20:59:25 Europe/Berlin] SESSION CONTROLLER::getCurrentPage->Orden
+[29-Dec-2021 20:59:25 Europe/Berlin] Conexión a BD exitosa
+[29-Dec-2021 20:59:25 Europe/Berlin] SESSION CONTROLLER::getUserSessionData->Diego
+[29-Dec-2021 20:59:25 Europe/Berlin] Orden::construct
+[29-Dec-2021 20:59:25 Europe/Berlin] Conexión a BD exitosa
+[29-Dec-2021 20:59:25 Europe/Berlin] PHP Warning:  Undefined variable $descCompra in C:\xampp\htdocs\PruebaMegaRed\Views\Orden\index.php on line 103
+[29-Dec-2021 20:59:25 Europe/Berlin] App php
+[29-Dec-2021 20:59:25 Europe/Berlin] SESSION CONTROLLER::validateSession
+[29-Dec-2021 20:59:25 Europe/Berlin] Conexión a BD exitosa
+[29-Dec-2021 20:59:25 Europe/Berlin] SESSION CONTROLLER::getUserSessionData->Diego
+[29-Dec-2021 20:59:25 Europe/Berlin] SESSION CONTROLLER::getCurrentPage->Dashboard
+[29-Dec-2021 20:59:25 Europe/Berlin] SESSION CONTROLLER::getCurrentPage->Dashboard
+[29-Dec-2021 20:59:25 Europe/Berlin] Conexión a BD exitosa
+[29-Dec-2021 20:59:25 Europe/Berlin] SESSION CONTROLLER::getUserSessionData->Diego
+[29-Dec-2021 20:59:25 Europe/Berlin] Dashboard::construct
+[29-Dec-2021 20:59:25 Europe/Berlin] Dashboard::render
+[29-Dec-2021 20:59:25 Europe/Berlin] Conexión a BD exitosa
+[29-Dec-2021 20:59:26 Europe/Berlin] App php
+[29-Dec-2021 20:59:26 Europe/Berlin] SESSION CONTROLLER::validateSession
+[29-Dec-2021 20:59:26 Europe/Berlin] Conexión a BD exitosa
+[29-Dec-2021 20:59:26 Europe/Berlin] SESSION CONTROLLER::getUserSessionData->Diego
+[29-Dec-2021 20:59:26 Europe/Berlin] SESSION CONTROLLER::getCurrentPage->User
+[29-Dec-2021 20:59:26 Europe/Berlin] SESSION CONTROLLER::getCurrentPage->User
+[29-Dec-2021 20:59:26 Europe/Berlin] Conexión a BD exitosa
+[29-Dec-2021 20:59:26 Europe/Berlin] SESSION CONTROLLER::getUserSessionData->Diego
+[29-Dec-2021 20:59:26 Europe/Berlin] App php
+[29-Dec-2021 20:59:26 Europe/Berlin] SESSION CONTROLLER::validateSession
+[29-Dec-2021 20:59:26 Europe/Berlin] Conexión a BD exitosa
+[29-Dec-2021 20:59:26 Europe/Berlin] SESSION CONTROLLER::getUserSessionData->Diego
+[29-Dec-2021 20:59:26 Europe/Berlin] SESSION CONTROLLER::getCurrentPage->Orden
+[29-Dec-2021 20:59:26 Europe/Berlin] SESSION CONTROLLER::getCurrentPage->Orden
+[29-Dec-2021 20:59:26 Europe/Berlin] Conexión a BD exitosa
+[29-Dec-2021 20:59:26 Europe/Berlin] SESSION CONTROLLER::getUserSessionData->Diego
+[29-Dec-2021 20:59:26 Europe/Berlin] Orden::construct
+[29-Dec-2021 20:59:26 Europe/Berlin] Conexión a BD exitosa
+[29-Dec-2021 20:59:26 Europe/Berlin] PHP Warning:  Undefined variable $descCompra in C:\xampp\htdocs\PruebaMegaRed\Views\Orden\index.php on line 103
+[29-Dec-2021 20:59:27 Europe/Berlin] App php
+[29-Dec-2021 20:59:27 Europe/Berlin] SESSION CONTROLLER::validateSession
+[29-Dec-2021 20:59:27 Europe/Berlin] Conexión a BD exitosa
+[29-Dec-2021 20:59:27 Europe/Berlin] SESSION CONTROLLER::getUserSessionData->Diego
+[29-Dec-2021 20:59:27 Europe/Berlin] SESSION CONTROLLER::getCurrentPage->Compras
+[29-Dec-2021 20:59:27 Europe/Berlin] SESSION CONTROLLER::getCurrentPage->Compras
+[29-Dec-2021 20:59:27 Europe/Berlin] Conexión a BD exitosa
+[29-Dec-2021 20:59:27 Europe/Berlin] SESSION CONTROLLER::getUserSessionData->Diego
+[29-Dec-2021 20:59:27 Europe/Berlin] Orden::construct
+[29-Dec-2021 20:59:27 Europe/Berlin] Conexión a BD exitosa
+[29-Dec-2021 20:59:28 Europe/Berlin] App php
+[29-Dec-2021 20:59:28 Europe/Berlin] SESSION CONTROLLER::validateSession
+[29-Dec-2021 20:59:28 Europe/Berlin] Conexión a BD exitosa
+[29-Dec-2021 20:59:28 Europe/Berlin] SESSION CONTROLLER::getUserSessionData->Diego
+[29-Dec-2021 20:59:28 Europe/Berlin] SESSION CONTROLLER::getCurrentPage->User
+[29-Dec-2021 20:59:28 Europe/Berlin] SESSION CONTROLLER::getCurrentPage->User
+[29-Dec-2021 20:59:28 Europe/Berlin] Conexión a BD exitosa
+[29-Dec-2021 20:59:28 Europe/Berlin] SESSION CONTROLLER::getUserSessionData->Diego
+[29-Dec-2021 20:59:28 Europe/Berlin] App php
+[29-Dec-2021 20:59:28 Europe/Berlin] SESSION CONTROLLER::validateSession
+[29-Dec-2021 20:59:29 Europe/Berlin] Conexión a BD exitosa
+[29-Dec-2021 20:59:29 Europe/Berlin] SESSION CONTROLLER::getUserSessionData->Diego
+[29-Dec-2021 20:59:29 Europe/Berlin] SESSION CONTROLLER::getCurrentPage->Dashboard
+[29-Dec-2021 20:59:29 Europe/Berlin] SESSION CONTROLLER::getCurrentPage->Dashboard
+[29-Dec-2021 20:59:29 Europe/Berlin] Conexión a BD exitosa
+[29-Dec-2021 20:59:29 Europe/Berlin] SESSION CONTROLLER::getUserSessionData->Diego
+[29-Dec-2021 20:59:29 Europe/Berlin] Dashboard::construct
+[29-Dec-2021 20:59:29 Europe/Berlin] Dashboard::render
+[29-Dec-2021 20:59:29 Europe/Berlin] Conexión a BD exitosa
+[29-Dec-2021 20:59:29 Europe/Berlin] App php
+[29-Dec-2021 20:59:29 Europe/Berlin] SESSION CONTROLLER::validateSession
+[29-Dec-2021 20:59:29 Europe/Berlin] Conexión a BD exitosa
+[29-Dec-2021 20:59:29 Europe/Berlin] SESSION CONTROLLER::getUserSessionData->Diego
+[29-Dec-2021 20:59:29 Europe/Berlin] SESSION CONTROLLER::getCurrentPage->Orden
+[29-Dec-2021 20:59:29 Europe/Berlin] SESSION CONTROLLER::getCurrentPage->Orden
+[29-Dec-2021 20:59:29 Europe/Berlin] Conexión a BD exitosa
+[29-Dec-2021 20:59:29 Europe/Berlin] SESSION CONTROLLER::getUserSessionData->Diego
+[29-Dec-2021 20:59:29 Europe/Berlin] Orden::construct
+[29-Dec-2021 20:59:29 Europe/Berlin] Conexión a BD exitosa
+[29-Dec-2021 20:59:29 Europe/Berlin] PHP Warning:  Undefined variable $descCompra in C:\xampp\htdocs\PruebaMegaRed\Views\Orden\index.php on line 103
+[29-Dec-2021 20:59:29 Europe/Berlin] App php
+[29-Dec-2021 20:59:29 Europe/Berlin] SESSION CONTROLLER::validateSession
+[29-Dec-2021 20:59:29 Europe/Berlin] Conexión a BD exitosa
+[29-Dec-2021 20:59:29 Europe/Berlin] SESSION CONTROLLER::getUserSessionData->Diego
+[29-Dec-2021 20:59:29 Europe/Berlin] SESSION CONTROLLER::getCurrentPage->Compras
+[29-Dec-2021 20:59:29 Europe/Berlin] SESSION CONTROLLER::getCurrentPage->Compras
+[29-Dec-2021 20:59:29 Europe/Berlin] Conexión a BD exitosa
+[29-Dec-2021 20:59:29 Europe/Berlin] SESSION CONTROLLER::getUserSessionData->Diego
+[29-Dec-2021 20:59:29 Europe/Berlin] Orden::construct
+[29-Dec-2021 20:59:29 Europe/Berlin] Conexión a BD exitosa
+[29-Dec-2021 20:59:30 Europe/Berlin] App php
+[29-Dec-2021 20:59:30 Europe/Berlin] SESSION CONTROLLER::validateSession
+[29-Dec-2021 20:59:30 Europe/Berlin] Conexión a BD exitosa
+[29-Dec-2021 20:59:30 Europe/Berlin] SESSION CONTROLLER::getUserSessionData->Diego
+[29-Dec-2021 20:59:30 Europe/Berlin] SESSION CONTROLLER::getCurrentPage->Dashboard
+[29-Dec-2021 20:59:30 Europe/Berlin] SESSION CONTROLLER::getCurrentPage->Dashboard
+[29-Dec-2021 20:59:30 Europe/Berlin] Conexión a BD exitosa
+[29-Dec-2021 20:59:30 Europe/Berlin] SESSION CONTROLLER::getUserSessionData->Diego
+[29-Dec-2021 20:59:30 Europe/Berlin] Dashboard::construct
+[29-Dec-2021 20:59:30 Europe/Berlin] Dashboard::render
+[29-Dec-2021 20:59:30 Europe/Berlin] Conexión a BD exitosa
+[29-Dec-2021 20:59:30 Europe/Berlin] App php
+[29-Dec-2021 20:59:30 Europe/Berlin] SESSION CONTROLLER::validateSession
+[29-Dec-2021 20:59:30 Europe/Berlin] Conexión a BD exitosa
+[29-Dec-2021 20:59:30 Europe/Berlin] SESSION CONTROLLER::getUserSessionData->Diego
+[29-Dec-2021 20:59:30 Europe/Berlin] SESSION CONTROLLER::getCurrentPage->User
+[29-Dec-2021 20:59:30 Europe/Berlin] SESSION CONTROLLER::getCurrentPage->User
+[29-Dec-2021 20:59:30 Europe/Berlin] Conexión a BD exitosa
+[29-Dec-2021 20:59:30 Europe/Berlin] SESSION CONTROLLER::getUserSessionData->Diego
+[29-Dec-2021 20:59:31 Europe/Berlin] App php
+[29-Dec-2021 20:59:31 Europe/Berlin] SESSION CONTROLLER::validateSession
+[29-Dec-2021 20:59:31 Europe/Berlin] Conexión a BD exitosa
+[29-Dec-2021 20:59:31 Europe/Berlin] SESSION CONTROLLER::getUserSessionData->Diego
+[29-Dec-2021 20:59:31 Europe/Berlin] SESSION CONTROLLER::getCurrentPage->Dashboard
+[29-Dec-2021 20:59:31 Europe/Berlin] SESSION CONTROLLER::getCurrentPage->Dashboard
+[29-Dec-2021 20:59:31 Europe/Berlin] Conexión a BD exitosa
+[29-Dec-2021 20:59:31 Europe/Berlin] SESSION CONTROLLER::getUserSessionData->Diego
+[29-Dec-2021 20:59:31 Europe/Berlin] Dashboard::construct
+[29-Dec-2021 20:59:31 Europe/Berlin] Dashboard::render
+[29-Dec-2021 20:59:31 Europe/Berlin] Conexión a BD exitosa
+[29-Dec-2021 20:59:31 Europe/Berlin] App php
+[29-Dec-2021 20:59:31 Europe/Berlin] SESSION CONTROLLER::validateSession
+[29-Dec-2021 20:59:31 Europe/Berlin] Conexión a BD exitosa
+[29-Dec-2021 20:59:31 Europe/Berlin] SESSION CONTROLLER::getUserSessionData->Diego
+[29-Dec-2021 20:59:31 Europe/Berlin] SESSION CONTROLLER::getCurrentPage->Orden
+[29-Dec-2021 20:59:31 Europe/Berlin] SESSION CONTROLLER::getCurrentPage->Orden
+[29-Dec-2021 20:59:31 Europe/Berlin] Conexión a BD exitosa
+[29-Dec-2021 20:59:31 Europe/Berlin] SESSION CONTROLLER::getUserSessionData->Diego
+[29-Dec-2021 20:59:31 Europe/Berlin] Orden::construct
+[29-Dec-2021 20:59:31 Europe/Berlin] Conexión a BD exitosa
+[29-Dec-2021 20:59:31 Europe/Berlin] PHP Warning:  Undefined variable $descCompra in C:\xampp\htdocs\PruebaMegaRed\Views\Orden\index.php on line 103
+[29-Dec-2021 20:59:31 Europe/Berlin] App php
+[29-Dec-2021 20:59:31 Europe/Berlin] SESSION CONTROLLER::validateSession
+[29-Dec-2021 20:59:31 Europe/Berlin] Conexión a BD exitosa
+[29-Dec-2021 20:59:31 Europe/Berlin] SESSION CONTROLLER::getUserSessionData->Diego
+[29-Dec-2021 20:59:31 Europe/Berlin] SESSION CONTROLLER::getCurrentPage->Compras
+[29-Dec-2021 20:59:31 Europe/Berlin] SESSION CONTROLLER::getCurrentPage->Compras
+[29-Dec-2021 20:59:31 Europe/Berlin] Conexión a BD exitosa
+[29-Dec-2021 20:59:31 Europe/Berlin] SESSION CONTROLLER::getUserSessionData->Diego
+[29-Dec-2021 20:59:31 Europe/Berlin] Orden::construct
+[29-Dec-2021 20:59:31 Europe/Berlin] Conexión a BD exitosa
+[29-Dec-2021 20:59:33 Europe/Berlin] App php
+[29-Dec-2021 20:59:33 Europe/Berlin] SESSION CONTROLLER::validateSession
+[29-Dec-2021 20:59:33 Europe/Berlin] Conexión a BD exitosa
+[29-Dec-2021 20:59:33 Europe/Berlin] SESSION CONTROLLER::getUserSessionData->Diego
+[29-Dec-2021 20:59:33 Europe/Berlin] SESSION CONTROLLER::getCurrentPage->Dashboard
+[29-Dec-2021 20:59:33 Europe/Berlin] SESSION CONTROLLER::getCurrentPage->Dashboard
+[29-Dec-2021 20:59:33 Europe/Berlin] Conexión a BD exitosa
+[29-Dec-2021 20:59:33 Europe/Berlin] SESSION CONTROLLER::getUserSessionData->Diego
+[29-Dec-2021 20:59:33 Europe/Berlin] Dashboard::construct
+[29-Dec-2021 20:59:33 Europe/Berlin] Dashboard::render
+[29-Dec-2021 20:59:33 Europe/Berlin] Conexión a BD exitosa
+[29-Dec-2021 20:59:33 Europe/Berlin] App php
+[29-Dec-2021 20:59:33 Europe/Berlin] SESSION CONTROLLER::validateSession
+[29-Dec-2021 20:59:33 Europe/Berlin] Conexión a BD exitosa
+[29-Dec-2021 20:59:33 Europe/Berlin] SESSION CONTROLLER::getUserSessionData->Diego
+[29-Dec-2021 20:59:33 Europe/Berlin] SESSION CONTROLLER::getCurrentPage->Dashboard
+[29-Dec-2021 20:59:33 Europe/Berlin] SESSION CONTROLLER::getCurrentPage->Dashboard
+[29-Dec-2021 20:59:33 Europe/Berlin] Conexión a BD exitosa
+[29-Dec-2021 20:59:33 Europe/Berlin] SESSION CONTROLLER::getUserSessionData->Diego
+[29-Dec-2021 20:59:33 Europe/Berlin] Dashboard::construct
+[29-Dec-2021 20:59:33 Europe/Berlin] Dashboard::render
+[29-Dec-2021 20:59:33 Europe/Berlin] Conexión a BD exitosa
+[29-Dec-2021 20:59:34 Europe/Berlin] App php
+[29-Dec-2021 20:59:34 Europe/Berlin] SESSION CONTROLLER::validateSession
+[29-Dec-2021 20:59:34 Europe/Berlin] Conexión a BD exitosa
+[29-Dec-2021 20:59:34 Europe/Berlin] SESSION CONTROLLER::getUserSessionData->Diego
+[29-Dec-2021 20:59:34 Europe/Berlin] SESSION CONTROLLER::getCurrentPage->Orden
+[29-Dec-2021 20:59:34 Europe/Berlin] SESSION CONTROLLER::getCurrentPage->Orden
+[29-Dec-2021 20:59:34 Europe/Berlin] Conexión a BD exitosa
+[29-Dec-2021 20:59:34 Europe/Berlin] SESSION CONTROLLER::getUserSessionData->Diego
+[29-Dec-2021 20:59:34 Europe/Berlin] Orden::construct
+[29-Dec-2021 20:59:34 Europe/Berlin] Conexión a BD exitosa
+[29-Dec-2021 20:59:34 Europe/Berlin] PHP Warning:  Undefined variable $descCompra in C:\xampp\htdocs\PruebaMegaRed\Views\Orden\index.php on line 103
+[29-Dec-2021 20:59:34 Europe/Berlin] App php
+[29-Dec-2021 20:59:34 Europe/Berlin] SESSION CONTROLLER::validateSession
+[29-Dec-2021 20:59:34 Europe/Berlin] Conexión a BD exitosa
+[29-Dec-2021 20:59:34 Europe/Berlin] SESSION CONTROLLER::getUserSessionData->Diego
+[29-Dec-2021 20:59:34 Europe/Berlin] SESSION CONTROLLER::getCurrentPage->Compras
+[29-Dec-2021 20:59:34 Europe/Berlin] SESSION CONTROLLER::getCurrentPage->Compras
+[29-Dec-2021 20:59:34 Europe/Berlin] Conexión a BD exitosa
+[29-Dec-2021 20:59:34 Europe/Berlin] SESSION CONTROLLER::getUserSessionData->Diego
+[29-Dec-2021 20:59:34 Europe/Berlin] Orden::construct
+[29-Dec-2021 20:59:34 Europe/Berlin] Conexión a BD exitosa
+[29-Dec-2021 20:59:35 Europe/Berlin] App php
+[29-Dec-2021 20:59:35 Europe/Berlin] SESSION CONTROLLER::validateSession
+[29-Dec-2021 20:59:35 Europe/Berlin] Conexión a BD exitosa
+[29-Dec-2021 20:59:35 Europe/Berlin] SESSION CONTROLLER::getUserSessionData->Diego
+[29-Dec-2021 20:59:35 Europe/Berlin] SESSION CONTROLLER::getCurrentPage->Dashboard
+[29-Dec-2021 20:59:35 Europe/Berlin] SESSION CONTROLLER::getCurrentPage->Dashboard
+[29-Dec-2021 20:59:35 Europe/Berlin] Conexión a BD exitosa
+[29-Dec-2021 20:59:35 Europe/Berlin] SESSION CONTROLLER::getUserSessionData->Diego
+[29-Dec-2021 20:59:35 Europe/Berlin] Dashboard::construct
+[29-Dec-2021 20:59:35 Europe/Berlin] Dashboard::render
+[29-Dec-2021 20:59:35 Europe/Berlin] Conexión a BD exitosa
+[29-Dec-2021 20:59:35 Europe/Berlin] App php
+[29-Dec-2021 20:59:35 Europe/Berlin] SESSION CONTROLLER::validateSession
+[29-Dec-2021 20:59:35 Europe/Berlin] Conexión a BD exitosa
+[29-Dec-2021 20:59:35 Europe/Berlin] SESSION CONTROLLER::getUserSessionData->Diego
+[29-Dec-2021 20:59:35 Europe/Berlin] SESSION CONTROLLER::getCurrentPage->User
+[29-Dec-2021 20:59:35 Europe/Berlin] SESSION CONTROLLER::getCurrentPage->User
+[29-Dec-2021 20:59:35 Europe/Berlin] Conexión a BD exitosa
+[29-Dec-2021 20:59:35 Europe/Berlin] SESSION CONTROLLER::getUserSessionData->Diego
+[29-Dec-2021 20:59:36 Europe/Berlin] App php
+[29-Dec-2021 20:59:36 Europe/Berlin] SESSION CONTROLLER::validateSession
+[29-Dec-2021 20:59:36 Europe/Berlin] Conexión a BD exitosa
+[29-Dec-2021 20:59:36 Europe/Berlin] SESSION CONTROLLER::getUserSessionData->Diego
+[29-Dec-2021 20:59:36 Europe/Berlin] SESSION CONTROLLER::getCurrentPage->Orden
+[29-Dec-2021 20:59:36 Europe/Berlin] SESSION CONTROLLER::getCurrentPage->Orden
+[29-Dec-2021 20:59:36 Europe/Berlin] Conexión a BD exitosa
+[29-Dec-2021 20:59:36 Europe/Berlin] SESSION CONTROLLER::getUserSessionData->Diego
+[29-Dec-2021 20:59:36 Europe/Berlin] Orden::construct
+[29-Dec-2021 20:59:36 Europe/Berlin] Conexión a BD exitosa
+[29-Dec-2021 20:59:36 Europe/Berlin] PHP Warning:  Undefined variable $descCompra in C:\xampp\htdocs\PruebaMegaRed\Views\Orden\index.php on line 103
+[29-Dec-2021 20:59:36 Europe/Berlin] App php
+[29-Dec-2021 20:59:36 Europe/Berlin] SESSION CONTROLLER::validateSession
+[29-Dec-2021 20:59:36 Europe/Berlin] Conexión a BD exitosa
+[29-Dec-2021 20:59:36 Europe/Berlin] SESSION CONTROLLER::getUserSessionData->Diego
+[29-Dec-2021 20:59:36 Europe/Berlin] SESSION CONTROLLER::getCurrentPage->Compras
+[29-Dec-2021 20:59:36 Europe/Berlin] SESSION CONTROLLER::getCurrentPage->Compras
+[29-Dec-2021 20:59:36 Europe/Berlin] Conexión a BD exitosa
+[29-Dec-2021 20:59:36 Europe/Berlin] SESSION CONTROLLER::getUserSessionData->Diego
+[29-Dec-2021 20:59:36 Europe/Berlin] Orden::construct
+[29-Dec-2021 20:59:36 Europe/Berlin] Conexión a BD exitosa
+[29-Dec-2021 20:59:38 Europe/Berlin] App php
+[29-Dec-2021 20:59:38 Europe/Berlin] SESSION CONTROLLER::validateSession
+[29-Dec-2021 20:59:38 Europe/Berlin] Conexión a BD exitosa
+[29-Dec-2021 20:59:38 Europe/Berlin] SESSION CONTROLLER::getUserSessionData->Diego
+[29-Dec-2021 20:59:38 Europe/Berlin] SESSION CONTROLLER::getCurrentPage->User
+[29-Dec-2021 20:59:38 Europe/Berlin] SESSION CONTROLLER::getCurrentPage->User
+[29-Dec-2021 20:59:38 Europe/Berlin] Conexión a BD exitosa
+[29-Dec-2021 20:59:38 Europe/Berlin] SESSION CONTROLLER::getUserSessionData->Diego
+[29-Dec-2021 20:59:42 Europe/Berlin] App php
+[29-Dec-2021 20:59:42 Europe/Berlin] SESSION CONTROLLER::validateSession
+[29-Dec-2021 20:59:42 Europe/Berlin] Conexión a BD exitosa
+[29-Dec-2021 20:59:42 Europe/Berlin] SESSION CONTROLLER::getUserSessionData->Diego
+[29-Dec-2021 20:59:42 Europe/Berlin] SESSION CONTROLLER::getCurrentPage->user
+[29-Dec-2021 20:59:42 Europe/Berlin] SESSION CONTROLLER::getCurrentPage->user
+[29-Dec-2021 20:59:42 Europe/Berlin] Conexión a BD exitosa
+[29-Dec-2021 20:59:42 Europe/Berlin] SESSION CONTROLLER::getUserSessionData->Diego
+[29-Dec-2021 20:59:42 Europe/Berlin] PHP Warning:  foreach() argument must be of type array|object, string given in C:\xampp\htdocs\PruebaMegaRed\libs\Controller.php on line 25
+[29-Dec-2021 20:59:42 Europe/Berlin] Conexión a BD exitosa
+[29-Dec-2021 20:59:42 Europe/Berlin] password actualizadouser
+[29-Dec-2021 20:59:42 Europe/Berlin] App php
+[29-Dec-2021 20:59:42 Europe/Berlin] SESSION CONTROLLER::validateSession
+[29-Dec-2021 20:59:42 Europe/Berlin] Conexión a BD exitosa
+[29-Dec-2021 20:59:42 Europe/Berlin] SESSION CONTROLLER::getUserSessionData->Diego
+[29-Dec-2021 20:59:42 Europe/Berlin] SESSION CONTROLLER::getCurrentPage->Dashboard?success=2003
+[29-Dec-2021 20:59:42 Europe/Berlin] SESSION CONTROLLER::getCurrentPage->Dashboard?success=2003
+[29-Dec-2021 20:59:42 Europe/Berlin] Conexión a BD exitosa
+[29-Dec-2021 20:59:42 Europe/Berlin] SESSION CONTROLLER::getUserSessionData->Diego
+[29-Dec-2021 20:59:42 Europe/Berlin] Dashboard::construct
+[29-Dec-2021 20:59:42 Europe/Berlin] Dashboard::render
+[29-Dec-2021 20:59:42 Europe/Berlin] Conexión a BD exitosa
+[29-Dec-2021 20:59:52 Europe/Berlin] App php
+[29-Dec-2021 20:59:52 Europe/Berlin] SESSION CONTROLLER::validateSession
+[29-Dec-2021 20:59:52 Europe/Berlin] Conexión a BD exitosa
+[29-Dec-2021 20:59:52 Europe/Berlin] SESSION CONTROLLER::getUserSessionData->Diego
+[29-Dec-2021 20:59:52 Europe/Berlin] SESSION CONTROLLER::getCurrentPage->Orden
+[29-Dec-2021 20:59:52 Europe/Berlin] SESSION CONTROLLER::getCurrentPage->Orden
+[29-Dec-2021 20:59:52 Europe/Berlin] Conexión a BD exitosa
+[29-Dec-2021 20:59:52 Europe/Berlin] SESSION CONTROLLER::getUserSessionData->Diego
+[29-Dec-2021 20:59:52 Europe/Berlin] Orden::construct
+[29-Dec-2021 20:59:52 Europe/Berlin] Conexión a BD exitosa
+[29-Dec-2021 20:59:52 Europe/Berlin] Conexión a BD exitosa
+[29-Dec-2021 20:59:52 Europe/Berlin] Conexión a BD exitosa
+[29-Dec-2021 20:59:52 Europe/Berlin] Conexión a BD exitosa
+[29-Dec-2021 20:59:52 Europe/Berlin] App php
+[29-Dec-2021 20:59:52 Europe/Berlin] SESSION CONTROLLER::validateSession
+[29-Dec-2021 20:59:52 Europe/Berlin] Conexión a BD exitosa
+[29-Dec-2021 20:59:52 Europe/Berlin] SESSION CONTROLLER::getUserSessionData->Diego
+[29-Dec-2021 20:59:52 Europe/Berlin] SESSION CONTROLLER::getCurrentPage->Dashboard?success=2004
+[29-Dec-2021 20:59:52 Europe/Berlin] SESSION CONTROLLER::getCurrentPage->Dashboard?success=2004
+[29-Dec-2021 20:59:52 Europe/Berlin] Conexión a BD exitosa
+[29-Dec-2021 20:59:52 Europe/Berlin] SESSION CONTROLLER::getUserSessionData->Diego
+[29-Dec-2021 20:59:52 Europe/Berlin] Dashboard::construct
+[29-Dec-2021 20:59:52 Europe/Berlin] Dashboard::render
+[29-Dec-2021 20:59:52 Europe/Berlin] Conexión a BD exitosa
+[29-Dec-2021 20:59:56 Europe/Berlin] App php
+[29-Dec-2021 20:59:56 Europe/Berlin] SESSION CONTROLLER::validateSession
+[29-Dec-2021 20:59:56 Europe/Berlin] Conexión a BD exitosa
+[29-Dec-2021 20:59:56 Europe/Berlin] SESSION CONTROLLER::getUserSessionData->Diego
+[29-Dec-2021 20:59:56 Europe/Berlin] SESSION CONTROLLER::getCurrentPage->Orden
+[29-Dec-2021 20:59:56 Europe/Berlin] SESSION CONTROLLER::getCurrentPage->Orden
+[29-Dec-2021 20:59:56 Europe/Berlin] Conexión a BD exitosa
+[29-Dec-2021 20:59:56 Europe/Berlin] SESSION CONTROLLER::getUserSessionData->Diego
+[29-Dec-2021 20:59:56 Europe/Berlin] Orden::construct
+[29-Dec-2021 20:59:56 Europe/Berlin] Conexión a BD exitosa
+[29-Dec-2021 20:59:56 Europe/Berlin] PHP Warning:  Undefined variable $descCompra in C:\xampp\htdocs\PruebaMegaRed\Views\Orden\index.php on line 103
+[29-Dec-2021 21:00:02 Europe/Berlin] App php
+[29-Dec-2021 21:00:02 Europe/Berlin] SESSION CONTROLLER::validateSession
+[29-Dec-2021 21:00:02 Europe/Berlin] Conexión a BD exitosa
+[29-Dec-2021 21:00:02 Europe/Berlin] SESSION CONTROLLER::getUserSessionData->Diego
+[29-Dec-2021 21:00:02 Europe/Berlin] SESSION CONTROLLER::getCurrentPage->Orden
+[29-Dec-2021 21:00:02 Europe/Berlin] SESSION CONTROLLER::getCurrentPage->Orden
+[29-Dec-2021 21:00:02 Europe/Berlin] Conexión a BD exitosa
+[29-Dec-2021 21:00:02 Europe/Berlin] SESSION CONTROLLER::getUserSessionData->Diego
+[29-Dec-2021 21:00:02 Europe/Berlin] Orden::construct
+[29-Dec-2021 21:00:02 Europe/Berlin] Conexión a BD exitosa
+[29-Dec-2021 21:00:02 Europe/Berlin] Conexión a BD exitosa
+[29-Dec-2021 21:00:02 Europe/Berlin] entro aqui con el prepare8
+[29-Dec-2021 21:00:02 Europe/Berlin] Conexión a BD exitosa
+[29-Dec-2021 21:00:02 Europe/Berlin] App php
+[29-Dec-2021 21:00:02 Europe/Berlin] SESSION CONTROLLER::validateSession
+[29-Dec-2021 21:00:02 Europe/Berlin] Conexión a BD exitosa
+[29-Dec-2021 21:00:02 Europe/Berlin] SESSION CONTROLLER::getUserSessionData->Diego
+[29-Dec-2021 21:00:02 Europe/Berlin] SESSION CONTROLLER::getCurrentPage->Orden?success=2005
+[29-Dec-2021 21:00:02 Europe/Berlin] SESSION CONTROLLER::getCurrentPage->Orden?success=2005
+[29-Dec-2021 21:00:02 Europe/Berlin] Conexión a BD exitosa
+[29-Dec-2021 21:00:02 Europe/Berlin] SESSION CONTROLLER::getUserSessionData->Diego
+[29-Dec-2021 21:00:02 Europe/Berlin] Orden::construct
+[29-Dec-2021 21:00:02 Europe/Berlin] Conexión a BD exitosa
+[29-Dec-2021 21:00:02 Europe/Berlin] PHP Warning:  Undefined variable $descCompra in C:\xampp\htdocs\PruebaMegaRed\Views\Orden\index.php on line 103
+[29-Dec-2021 21:00:04 Europe/Berlin] App php
+[29-Dec-2021 21:00:04 Europe/Berlin] SESSION CONTROLLER::validateSession
+[29-Dec-2021 21:00:04 Europe/Berlin] Conexión a BD exitosa
+[29-Dec-2021 21:00:04 Europe/Berlin] SESSION CONTROLLER::getUserSessionData->Diego
+[29-Dec-2021 21:00:04 Europe/Berlin] SESSION CONTROLLER::getCurrentPage->Dashboard
+[29-Dec-2021 21:00:04 Europe/Berlin] SESSION CONTROLLER::getCurrentPage->Dashboard
+[29-Dec-2021 21:00:04 Europe/Berlin] Conexión a BD exitosa
+[29-Dec-2021 21:00:04 Europe/Berlin] SESSION CONTROLLER::getUserSessionData->Diego
+[29-Dec-2021 21:00:04 Europe/Berlin] Dashboard::construct
+[29-Dec-2021 21:00:04 Europe/Berlin] Dashboard::render
+[29-Dec-2021 21:00:04 Europe/Berlin] Conexión a BD exitosa
+[29-Dec-2021 21:00:06 Europe/Berlin] App php
+[29-Dec-2021 21:00:06 Europe/Berlin] SESSION CONTROLLER::validateSession
+[29-Dec-2021 21:00:06 Europe/Berlin] Conexión a BD exitosa
+[29-Dec-2021 21:00:06 Europe/Berlin] SESSION CONTROLLER::getUserSessionData->Diego
+[29-Dec-2021 21:00:06 Europe/Berlin] SESSION CONTROLLER::getCurrentPage->Orden
+[29-Dec-2021 21:00:06 Europe/Berlin] SESSION CONTROLLER::getCurrentPage->Orden
+[29-Dec-2021 21:00:06 Europe/Berlin] Conexión a BD exitosa
+[29-Dec-2021 21:00:06 Europe/Berlin] SESSION CONTROLLER::getUserSessionData->Diego
+[29-Dec-2021 21:00:06 Europe/Berlin] Orden::construct
+[29-Dec-2021 21:00:06 Europe/Berlin] Conexión a BD exitosa
+[29-Dec-2021 21:00:06 Europe/Berlin] PHP Warning:  Undefined variable $descCompra in C:\xampp\htdocs\PruebaMegaRed\Views\Orden\index.php on line 103
+[29-Dec-2021 21:00:07 Europe/Berlin] App php
+[29-Dec-2021 21:00:07 Europe/Berlin] SESSION CONTROLLER::validateSession
+[29-Dec-2021 21:00:07 Europe/Berlin] Conexión a BD exitosa
+[29-Dec-2021 21:00:07 Europe/Berlin] SESSION CONTROLLER::getUserSessionData->Diego
+[29-Dec-2021 21:00:07 Europe/Berlin] SESSION CONTROLLER::getCurrentPage->Compras
+[29-Dec-2021 21:00:07 Europe/Berlin] SESSION CONTROLLER::getCurrentPage->Compras
+[29-Dec-2021 21:00:07 Europe/Berlin] Conexión a BD exitosa
+[29-Dec-2021 21:00:07 Europe/Berlin] SESSION CONTROLLER::getUserSessionData->Diego
+[29-Dec-2021 21:00:07 Europe/Berlin] Orden::construct
+[29-Dec-2021 21:00:07 Europe/Berlin] Conexión a BD exitosa
+[29-Dec-2021 21:00:07 Europe/Berlin] Conexión a BD exitosa
+[29-Dec-2021 21:00:07 Europe/Berlin] Conexión a BD exitosa
+[29-Dec-2021 21:00:07 Europe/Berlin] App php
+[29-Dec-2021 21:00:07 Europe/Berlin] SESSION CONTROLLER::validateSession
+[29-Dec-2021 21:00:07 Europe/Berlin] Conexión a BD exitosa
+[29-Dec-2021 21:00:07 Europe/Berlin] SESSION CONTROLLER::getUserSessionData->Diego
+[29-Dec-2021 21:00:07 Europe/Berlin] SESSION CONTROLLER::getCurrentPage->Dashboard?success=2006
+[29-Dec-2021 21:00:07 Europe/Berlin] SESSION CONTROLLER::getCurrentPage->Dashboard?success=2006
+[29-Dec-2021 21:00:07 Europe/Berlin] Conexión a BD exitosa
+[29-Dec-2021 21:00:07 Europe/Berlin] SESSION CONTROLLER::getUserSessionData->Diego
+[29-Dec-2021 21:00:07 Europe/Berlin] Dashboard::construct
+[29-Dec-2021 21:00:07 Europe/Berlin] Dashboard::render
+[29-Dec-2021 21:00:07 Europe/Berlin] Conexión a BD exitosa
+[29-Dec-2021 21:00:09 Europe/Berlin] App php
+[29-Dec-2021 21:00:09 Europe/Berlin] SESSION CONTROLLER::validateSession
+[29-Dec-2021 21:00:09 Europe/Berlin] Conexión a BD exitosa
+[29-Dec-2021 21:00:09 Europe/Berlin] SESSION CONTROLLER::getUserSessionData->Diego
+[29-Dec-2021 21:00:09 Europe/Berlin] SESSION CONTROLLER::getCurrentPage->Orden
+[29-Dec-2021 21:00:09 Europe/Berlin] SESSION CONTROLLER::getCurrentPage->Orden
+[29-Dec-2021 21:00:09 Europe/Berlin] Conexión a BD exitosa
+[29-Dec-2021 21:00:09 Europe/Berlin] SESSION CONTROLLER::getUserSessionData->Diego
+[29-Dec-2021 21:00:09 Europe/Berlin] Orden::construct
+[29-Dec-2021 21:00:09 Europe/Berlin] Conexión a BD exitosa
+[29-Dec-2021 21:00:10 Europe/Berlin] App php
+[29-Dec-2021 21:00:10 Europe/Berlin] SESSION CONTROLLER::validateSession
+[29-Dec-2021 21:00:10 Europe/Berlin] Conexión a BD exitosa
+[29-Dec-2021 21:00:10 Europe/Berlin] SESSION CONTROLLER::getUserSessionData->Diego
+[29-Dec-2021 21:00:10 Europe/Berlin] SESSION CONTROLLER::getCurrentPage->Compras
+[29-Dec-2021 21:00:10 Europe/Berlin] SESSION CONTROLLER::getCurrentPage->Compras
+[29-Dec-2021 21:00:10 Europe/Berlin] Conexión a BD exitosa
+[29-Dec-2021 21:00:10 Europe/Berlin] SESSION CONTROLLER::getUserSessionData->Diego
+[29-Dec-2021 21:00:10 Europe/Berlin] Orden::construct
+[29-Dec-2021 21:00:10 Europe/Berlin] Conexión a BD exitosa
+[29-Dec-2021 21:00:16 Europe/Berlin] App php
+[29-Dec-2021 21:00:16 Europe/Berlin] SESSION CONTROLLER::validateSession
+[29-Dec-2021 21:00:16 Europe/Berlin] Conexión a BD exitosa
+[29-Dec-2021 21:00:16 Europe/Berlin] SESSION CONTROLLER::getUserSessionData->Diego
+[29-Dec-2021 21:00:16 Europe/Berlin] SESSION CONTROLLER::getCurrentPage->Orden
+[29-Dec-2021 21:00:16 Europe/Berlin] SESSION CONTROLLER::getCurrentPage->Orden
+[29-Dec-2021 21:00:16 Europe/Berlin] Conexión a BD exitosa
+[29-Dec-2021 21:00:16 Europe/Berlin] SESSION CONTROLLER::getUserSessionData->Diego
+[29-Dec-2021 21:00:16 Europe/Berlin] Orden::construct
+[29-Dec-2021 21:00:16 Europe/Berlin] Conexión a BD exitosa
+[29-Dec-2021 21:00:17 Europe/Berlin] App php
+[29-Dec-2021 21:00:17 Europe/Berlin] SESSION CONTROLLER::validateSession
+[29-Dec-2021 21:00:17 Europe/Berlin] Conexión a BD exitosa
+[29-Dec-2021 21:00:17 Europe/Berlin] SESSION CONTROLLER::getUserSessionData->Diego
+[29-Dec-2021 21:00:17 Europe/Berlin] SESSION CONTROLLER::getCurrentPage->Dashboard
+[29-Dec-2021 21:00:17 Europe/Berlin] SESSION CONTROLLER::getCurrentPage->Dashboard
+[29-Dec-2021 21:00:17 Europe/Berlin] Conexión a BD exitosa
+[29-Dec-2021 21:00:17 Europe/Berlin] SESSION CONTROLLER::getUserSessionData->Diego
+[29-Dec-2021 21:00:17 Europe/Berlin] Dashboard::construct
+[29-Dec-2021 21:00:17 Europe/Berlin] Dashboard::render
+[29-Dec-2021 21:00:17 Europe/Berlin] Conexión a BD exitosa
+[29-Dec-2021 21:00:17 Europe/Berlin] App php
+[29-Dec-2021 21:00:17 Europe/Berlin] SESSION CONTROLLER::validateSession
+[29-Dec-2021 21:00:17 Europe/Berlin] Conexión a BD exitosa
+[29-Dec-2021 21:00:17 Europe/Berlin] SESSION CONTROLLER::getUserSessionData->Diego
+[29-Dec-2021 21:00:17 Europe/Berlin] SESSION CONTROLLER::getCurrentPage->User
+[29-Dec-2021 21:00:17 Europe/Berlin] SESSION CONTROLLER::getCurrentPage->User
+[29-Dec-2021 21:00:17 Europe/Berlin] Conexión a BD exitosa
+[29-Dec-2021 21:00:17 Europe/Berlin] SESSION CONTROLLER::getUserSessionData->Diego
+[29-Dec-2021 21:00:19 Europe/Berlin] App php
+[29-Dec-2021 21:00:19 Europe/Berlin] SESSION CONTROLLER::validateSession
+[29-Dec-2021 21:00:19 Europe/Berlin] Conexión a BD exitosa
+[29-Dec-2021 21:00:19 Europe/Berlin] SESSION CONTROLLER::getUserSessionData->Diego
+[29-Dec-2021 21:00:19 Europe/Berlin] SESSION CONTROLLER::getCurrentPage->Dashboard
+[29-Dec-2021 21:00:19 Europe/Berlin] SESSION CONTROLLER::getCurrentPage->Dashboard
+[29-Dec-2021 21:00:19 Europe/Berlin] Conexión a BD exitosa
+[29-Dec-2021 21:00:19 Europe/Berlin] SESSION CONTROLLER::getUserSessionData->Diego
+[29-Dec-2021 21:00:19 Europe/Berlin] Dashboard::construct
+[29-Dec-2021 21:00:19 Europe/Berlin] Dashboard::render
+[29-Dec-2021 21:00:19 Europe/Berlin] Conexión a BD exitosa
+[29-Dec-2021 21:00:22 Europe/Berlin] App php
+[29-Dec-2021 21:00:22 Europe/Berlin] SESSION CONTROLLER::validateSession
+[29-Dec-2021 21:00:22 Europe/Berlin] Conexión a BD exitosa
+[29-Dec-2021 21:00:22 Europe/Berlin] SESSION CONTROLLER::getUserSessionData->Diego
+[29-Dec-2021 21:00:22 Europe/Berlin] SESSION CONTROLLER::getCurrentPage->Dashboard
+[29-Dec-2021 21:00:22 Europe/Berlin] SESSION CONTROLLER::getCurrentPage->Dashboard
+[29-Dec-2021 21:00:22 Europe/Berlin] Conexión a BD exitosa
+[29-Dec-2021 21:00:22 Europe/Berlin] SESSION CONTROLLER::getUserSessionData->Diego
+[29-Dec-2021 21:00:22 Europe/Berlin] Dashboard::construct
+[29-Dec-2021 21:00:22 Europe/Berlin] Conexión a BD exitosa
+[29-Dec-2021 21:00:24 Europe/Berlin] App php
+[29-Dec-2021 21:00:24 Europe/Berlin] SESSION CONTROLLER::validateSession
+[29-Dec-2021 21:00:24 Europe/Berlin] Conexión a BD exitosa
+[29-Dec-2021 21:00:24 Europe/Berlin] SESSION CONTROLLER::getUserSessionData->Diego
+[29-Dec-2021 21:00:24 Europe/Berlin] SESSION CONTROLLER::getCurrentPage->Dashboard
+[29-Dec-2021 21:00:24 Europe/Berlin] SESSION CONTROLLER::getCurrentPage->Dashboard
+[29-Dec-2021 21:00:24 Europe/Berlin] Conexión a BD exitosa
+[29-Dec-2021 21:00:24 Europe/Berlin] SESSION CONTROLLER::getUserSessionData->Diego
+[29-Dec-2021 21:00:24 Europe/Berlin] Dashboard::construct
+[29-Dec-2021 21:00:24 Europe/Berlin] Dashboard::render
+[29-Dec-2021 21:00:24 Europe/Berlin] Conexión a BD exitosa
+[29-Dec-2021 21:00:26 Europe/Berlin] App php
+[29-Dec-2021 21:00:26 Europe/Berlin] SESSION CONTROLLER::validateSession
+[29-Dec-2021 21:00:26 Europe/Berlin] Conexión a BD exitosa
+[29-Dec-2021 21:00:26 Europe/Berlin] SESSION CONTROLLER::getUserSessionData->Diego
+[29-Dec-2021 21:00:26 Europe/Berlin] SESSION CONTROLLER::getCurrentPage->user
+[29-Dec-2021 21:00:26 Europe/Berlin] SESSION CONTROLLER::getCurrentPage->user
+[29-Dec-2021 21:00:26 Europe/Berlin] Conexión a BD exitosa
+[29-Dec-2021 21:00:26 Europe/Berlin] SESSION CONTROLLER::getUserSessionData->Diego
+[29-Dec-2021 21:00:26 Europe/Berlin] App php
+[29-Dec-2021 21:00:26 Europe/Berlin] SESSION CONTROLLER::validateSession
+[29-Dec-2021 21:00:26 Europe/Berlin] SESSION CONTROLLER::getCurrentPage->Login
+[29-Dec-2021 21:00:26 Europe/Berlin] Login::construct
+[29-Dec-2021 21:00:26 Europe/Berlin] Login::render
+[29-Dec-2021 21:00:26 Europe/Berlin] App php
+[29-Dec-2021 21:00:26 Europe/Berlin] App::construct-> no hay controlador especificado
+[29-Dec-2021 21:00:26 Europe/Berlin] SESSION CONTROLLER::validateSession
+[29-Dec-2021 21:00:26 Europe/Berlin] SESSION CONTROLLER::getCurrentPage->
+[29-Dec-2021 21:00:26 Europe/Berlin] SessionController::validateSession() public page
+[29-Dec-2021 21:00:26 Europe/Berlin] Login::construct
+[29-Dec-2021 21:00:26 Europe/Berlin] Login::render
+[29-Dec-2021 21:00:30 Europe/Berlin] App php
+[29-Dec-2021 21:00:30 Europe/Berlin] SESSION CONTROLLER::validateSession
+[29-Dec-2021 21:00:30 Europe/Berlin] SESSION CONTROLLER::getCurrentPage->login
+[29-Dec-2021 21:00:30 Europe/Berlin] Login::construct
+[29-Dec-2021 21:00:30 Europe/Berlin] Login::authenticate->email: admin@admin.com
+[29-Dec-2021 21:00:30 Europe/Berlin] Conexión a BD exitosa
+[29-Dec-2021 21:00:30 Europe/Berlin] login: user id 2
+[29-Dec-2021 21:00:30 Europe/Berlin] LoginModel::login->success
+[29-Dec-2021 21:00:30 Europe/Berlin] Login::authenticate() passed
+[29-Dec-2021 21:00:30 Europe/Berlin] App php
+[29-Dec-2021 21:00:30 Europe/Berlin] SESSION CONTROLLER::validateSession
+[29-Dec-2021 21:00:30 Europe/Berlin] Conexión a BD exitosa
+[29-Dec-2021 21:00:30 Europe/Berlin] SESSION CONTROLLER::getUserSessionData->Admin
+[29-Dec-2021 21:00:30 Europe/Berlin] SESSION CONTROLLER::getCurrentPage->Admin
+[29-Dec-2021 21:00:30 Europe/Berlin] SESSION CONTROLLER::getCurrentPage->Admin
+[29-Dec-2021 21:00:30 Europe/Berlin] Conexión a BD exitosa
+[29-Dec-2021 21:00:30 Europe/Berlin] SESSION CONTROLLER::getUserSessionData->Admin
+[29-Dec-2021 21:00:30 Europe/Berlin] Conexión a BD exitosa
+[29-Dec-2021 21:00:32 Europe/Berlin] App php
+[29-Dec-2021 21:00:32 Europe/Berlin] SESSION CONTROLLER::validateSession
+[29-Dec-2021 21:00:32 Europe/Berlin] Conexión a BD exitosa
+[29-Dec-2021 21:00:32 Europe/Berlin] SESSION CONTROLLER::getUserSessionData->Admin
+[29-Dec-2021 21:00:32 Europe/Berlin] SESSION CONTROLLER::getCurrentPage->Admin
+[29-Dec-2021 21:00:32 Europe/Berlin] SESSION CONTROLLER::getCurrentPage->Admin
+[29-Dec-2021 21:00:32 Europe/Berlin] Conexión a BD exitosa
+[29-Dec-2021 21:00:32 Europe/Berlin] SESSION CONTROLLER::getUserSessionData->Admin
+[29-Dec-2021 21:00:40 Europe/Berlin] App php
+[29-Dec-2021 21:00:40 Europe/Berlin] SESSION CONTROLLER::validateSession
+[29-Dec-2021 21:00:40 Europe/Berlin] Conexión a BD exitosa
+[29-Dec-2021 21:00:40 Europe/Berlin] SESSION CONTROLLER::getUserSessionData->Admin
+[29-Dec-2021 21:00:40 Europe/Berlin] SESSION CONTROLLER::getCurrentPage->user
+[29-Dec-2021 21:00:40 Europe/Berlin] SESSION CONTROLLER::getCurrentPage->user
+[29-Dec-2021 21:00:40 Europe/Berlin] Conexión a BD exitosa
+[29-Dec-2021 21:00:40 Europe/Berlin] SESSION CONTROLLER::getUserSessionData->Admin
+[29-Dec-2021 21:00:40 Europe/Berlin] PHP Warning:  foreach() argument must be of type array|object, string given in C:\xampp\htdocs\PruebaMegaRed\libs\Controller.php on line 25
+[29-Dec-2021 21:00:40 Europe/Berlin] Conexión a BD exitosa
+[29-Dec-2021 21:00:40 Europe/Berlin] password actualizadoadmin
+[29-Dec-2021 21:00:40 Europe/Berlin] App php
+[29-Dec-2021 21:00:40 Europe/Berlin] SESSION CONTROLLER::validateSession
+[29-Dec-2021 21:00:40 Europe/Berlin] Conexión a BD exitosa
+[29-Dec-2021 21:00:40 Europe/Berlin] SESSION CONTROLLER::getUserSessionData->Admin
+[29-Dec-2021 21:00:40 Europe/Berlin] SESSION CONTROLLER::getCurrentPage->Admin?success=2003
+[29-Dec-2021 21:00:40 Europe/Berlin] SESSION CONTROLLER::getCurrentPage->Admin?success=2003
+[29-Dec-2021 21:00:40 Europe/Berlin] Conexión a BD exitosa
+[29-Dec-2021 21:00:40 Europe/Berlin] SESSION CONTROLLER::getUserSessionData->Admin
+[29-Dec-2021 21:00:40 Europe/Berlin] Conexión a BD exitosa
+[29-Dec-2021 21:00:45 Europe/Berlin] App php
+[29-Dec-2021 21:00:45 Europe/Berlin] SESSION CONTROLLER::validateSession
+[29-Dec-2021 21:00:45 Europe/Berlin] Conexión a BD exitosa
+[29-Dec-2021 21:00:45 Europe/Berlin] SESSION CONTROLLER::getUserSessionData->Admin
+[29-Dec-2021 21:00:45 Europe/Berlin] SESSION CONTROLLER::getCurrentPage->signup
+[29-Dec-2021 21:00:45 Europe/Berlin] SESSION CONTROLLER::getCurrentPage->signup
+[29-Dec-2021 21:00:45 Europe/Berlin] Singup::construct
+[29-Dec-2021 21:00:45 Europe/Berlin] Singup::render
+[29-Dec-2021 21:01:06 Europe/Berlin] App php
+[29-Dec-2021 21:01:06 Europe/Berlin] SESSION CONTROLLER::validateSession
+[29-Dec-2021 21:01:06 Europe/Berlin] Conexión a BD exitosa
+[29-Dec-2021 21:01:06 Europe/Berlin] SESSION CONTROLLER::getUserSessionData->Admin
+[29-Dec-2021 21:01:06 Europe/Berlin] SESSION CONTROLLER::getCurrentPage->signup
+[29-Dec-2021 21:01:06 Europe/Berlin] SESSION CONTROLLER::getCurrentPage->signup
+[29-Dec-2021 21:01:06 Europe/Berlin] Singup::construct
+[29-Dec-2021 21:01:06 Europe/Berlin] Conexión a BD exitosa
+[29-Dec-2021 21:01:06 Europe/Berlin] Conexión a BD exitosa
+[29-Dec-2021 21:01:06 Europe/Berlin] App php
+[29-Dec-2021 21:01:06 Europe/Berlin] SESSION CONTROLLER::validateSession
+[29-Dec-2021 21:01:06 Europe/Berlin] Conexión a BD exitosa
+[29-Dec-2021 21:01:06 Europe/Berlin] SESSION CONTROLLER::getUserSessionData->Admin
+[29-Dec-2021 21:01:06 Europe/Berlin] SESSION CONTROLLER::getCurrentPage->Admin?success=2001
+[29-Dec-2021 21:01:06 Europe/Berlin] SESSION CONTROLLER::getCurrentPage->Admin?success=2001
+[29-Dec-2021 21:01:06 Europe/Berlin] Conexión a BD exitosa
+[29-Dec-2021 21:01:06 Europe/Berlin] SESSION CONTROLLER::getUserSessionData->Admin
+[29-Dec-2021 21:01:06 Europe/Berlin] Conexión a BD exitosa
+[29-Dec-2021 21:01:17 Europe/Berlin] App php
+[29-Dec-2021 21:01:17 Europe/Berlin] SESSION CONTROLLER::validateSession
+[29-Dec-2021 21:01:17 Europe/Berlin] Conexión a BD exitosa
+[29-Dec-2021 21:01:17 Europe/Berlin] SESSION CONTROLLER::getUserSessionData->Admin
+[29-Dec-2021 21:01:17 Europe/Berlin] SESSION CONTROLLER::getCurrentPage->Admin
+[29-Dec-2021 21:01:17 Europe/Berlin] SESSION CONTROLLER::getCurrentPage->Admin
+[29-Dec-2021 21:01:17 Europe/Berlin] Conexión a BD exitosa
+[29-Dec-2021 21:01:17 Europe/Berlin] SESSION CONTROLLER::getUserSessionData->Admin
+[29-Dec-2021 21:01:17 Europe/Berlin] USERMODEL::bloquearUsuario->id 1
+[29-Dec-2021 21:01:17 Europe/Berlin] Conexión a BD exitosa
+[29-Dec-2021 21:01:17 Europe/Berlin] App php
+[29-Dec-2021 21:01:17 Europe/Berlin] SESSION CONTROLLER::validateSession
+[29-Dec-2021 21:01:17 Europe/Berlin] Conexión a BD exitosa
+[29-Dec-2021 21:01:17 Europe/Berlin] SESSION CONTROLLER::getUserSessionData->Admin
+[29-Dec-2021 21:01:17 Europe/Berlin] SESSION CONTROLLER::getCurrentPage->Admin
+[29-Dec-2021 21:01:17 Europe/Berlin] SESSION CONTROLLER::getCurrentPage->Admin
+[29-Dec-2021 21:01:17 Europe/Berlin] Conexión a BD exitosa
+[29-Dec-2021 21:01:17 Europe/Berlin] SESSION CONTROLLER::getUserSessionData->Admin
+[29-Dec-2021 21:01:17 Europe/Berlin] Conexión a BD exitosa
+[29-Dec-2021 21:01:19 Europe/Berlin] App php
+[29-Dec-2021 21:01:19 Europe/Berlin] SESSION CONTROLLER::validateSession
+[29-Dec-2021 21:01:19 Europe/Berlin] Conexión a BD exitosa
+[29-Dec-2021 21:01:19 Europe/Berlin] SESSION CONTROLLER::getUserSessionData->Admin
+[29-Dec-2021 21:01:19 Europe/Berlin] SESSION CONTROLLER::getCurrentPage->Admin
+[29-Dec-2021 21:01:19 Europe/Berlin] SESSION CONTROLLER::getCurrentPage->Admin
+[29-Dec-2021 21:01:19 Europe/Berlin] Conexión a BD exitosa
+[29-Dec-2021 21:01:19 Europe/Berlin] SESSION CONTROLLER::getUserSessionData->Admin
+[29-Dec-2021 21:01:19 Europe/Berlin] Conexión a BD exitosa
+[29-Dec-2021 21:01:23 Europe/Berlin] App php
+[29-Dec-2021 21:01:23 Europe/Berlin] SESSION CONTROLLER::validateSession
+[29-Dec-2021 21:01:23 Europe/Berlin] Conexión a BD exitosa
+[29-Dec-2021 21:01:23 Europe/Berlin] SESSION CONTROLLER::getUserSessionData->Admin
+[29-Dec-2021 21:01:23 Europe/Berlin] SESSION CONTROLLER::getCurrentPage->Admin
+[29-Dec-2021 21:01:23 Europe/Berlin] SESSION CONTROLLER::getCurrentPage->Admin
+[29-Dec-2021 21:01:23 Europe/Berlin] Conexión a BD exitosa
+[29-Dec-2021 21:01:23 Europe/Berlin] SESSION CONTROLLER::getUserSessionData->Admin
+[29-Dec-2021 21:01:23 Europe/Berlin] USERMODEL::desbloquearUsuario->id 6
+[29-Dec-2021 21:01:23 Europe/Berlin] Conexión a BD exitosa
+[29-Dec-2021 21:01:23 Europe/Berlin] App php
+[29-Dec-2021 21:01:23 Europe/Berlin] SESSION CONTROLLER::validateSession
+[29-Dec-2021 21:01:23 Europe/Berlin] Conexión a BD exitosa
+[29-Dec-2021 21:01:23 Europe/Berlin] SESSION CONTROLLER::getUserSessionData->Admin
+[29-Dec-2021 21:01:23 Europe/Berlin] SESSION CONTROLLER::getCurrentPage->Admin
+[29-Dec-2021 21:01:23 Europe/Berlin] SESSION CONTROLLER::getCurrentPage->Admin
+[29-Dec-2021 21:01:23 Europe/Berlin] Conexión a BD exitosa
+[29-Dec-2021 21:01:23 Europe/Berlin] SESSION CONTROLLER::getUserSessionData->Admin
+[29-Dec-2021 21:01:23 Europe/Berlin] Conexión a BD exitosa
+[29-Dec-2021 21:01:25 Europe/Berlin] App php
+[29-Dec-2021 21:01:25 Europe/Berlin] SESSION CONTROLLER::validateSession
+[29-Dec-2021 21:01:25 Europe/Berlin] Conexión a BD exitosa
+[29-Dec-2021 21:01:25 Europe/Berlin] SESSION CONTROLLER::getUserSessionData->Admin
+[29-Dec-2021 21:01:25 Europe/Berlin] SESSION CONTROLLER::getCurrentPage->Admin
+[29-Dec-2021 21:01:25 Europe/Berlin] SESSION CONTROLLER::getCurrentPage->Admin
+[29-Dec-2021 21:01:25 Europe/Berlin] Conexión a BD exitosa
+[29-Dec-2021 21:01:25 Europe/Berlin] SESSION CONTROLLER::getUserSessionData->Admin
+[29-Dec-2021 21:01:25 Europe/Berlin] Conexión a BD exitosa
+[29-Dec-2021 21:01:26 Europe/Berlin] App php
+[29-Dec-2021 21:01:26 Europe/Berlin] SESSION CONTROLLER::validateSession
+[29-Dec-2021 21:01:26 Europe/Berlin] Conexión a BD exitosa
+[29-Dec-2021 21:01:26 Europe/Berlin] SESSION CONTROLLER::getUserSessionData->Admin
+[29-Dec-2021 21:01:26 Europe/Berlin] SESSION CONTROLLER::getCurrentPage->Productos
+[29-Dec-2021 21:01:26 Europe/Berlin] SESSION CONTROLLER::getCurrentPage->Productos
+[29-Dec-2021 21:01:26 Europe/Berlin] Productos::construct
+[29-Dec-2021 21:01:26 Europe/Berlin] Conexión a BD exitosa
+[29-Dec-2021 21:01:26 Europe/Berlin] SESSION CONTROLLER::getUserSessionData->Admin
+[29-Dec-2021 21:01:26 Europe/Berlin] Productos::render
+[29-Dec-2021 21:01:44 Europe/Berlin] App php
+[29-Dec-2021 21:01:44 Europe/Berlin] SESSION CONTROLLER::validateSession
+[29-Dec-2021 21:01:44 Europe/Berlin] Conexión a BD exitosa
+[29-Dec-2021 21:01:44 Europe/Berlin] SESSION CONTROLLER::getUserSessionData->Admin
+[29-Dec-2021 21:01:44 Europe/Berlin] SESSION CONTROLLER::getCurrentPage->productos
+[29-Dec-2021 21:01:44 Europe/Berlin] SESSION CONTROLLER::getCurrentPage->productos
+[29-Dec-2021 21:01:44 Europe/Berlin] Productos::construct
+[29-Dec-2021 21:01:45 Europe/Berlin] Conexión a BD exitosa
+[29-Dec-2021 21:01:45 Europe/Berlin] SESSION CONTROLLER::getUserSessionData->Admin
+[29-Dec-2021 21:01:45 Europe/Berlin] getPapas fritas
+[29-Dec-2021 21:01:45 Europe/Berlin] Conexión a BD exitosa
+[29-Dec-2021 21:01:45 Europe/Berlin] aqui
+[29-Dec-2021 21:01:45 Europe/Berlin] App php
+[29-Dec-2021 21:01:45 Europe/Berlin] SESSION CONTROLLER::validateSession
+[29-Dec-2021 21:01:45 Europe/Berlin] Conexión a BD exitosa
+[29-Dec-2021 21:01:45 Europe/Berlin] SESSION CONTROLLER::getUserSessionData->Admin
+[29-Dec-2021 21:01:45 Europe/Berlin] SESSION CONTROLLER::getCurrentPage->Admin?success=2002
+[29-Dec-2021 21:01:45 Europe/Berlin] SESSION CONTROLLER::getCurrentPage->Admin?success=2002
+[29-Dec-2021 21:01:45 Europe/Berlin] Conexión a BD exitosa
+[29-Dec-2021 21:01:45 Europe/Berlin] SESSION CONTROLLER::getUserSessionData->Admin
+[29-Dec-2021 21:01:45 Europe/Berlin] Conexión a BD exitosa
+[29-Dec-2021 21:01:48 Europe/Berlin] App php
+[29-Dec-2021 21:01:48 Europe/Berlin] SESSION CONTROLLER::validateSession
+[29-Dec-2021 21:01:48 Europe/Berlin] Conexión a BD exitosa
+[29-Dec-2021 21:01:48 Europe/Berlin] SESSION CONTROLLER::getUserSessionData->Admin
+[29-Dec-2021 21:01:48 Europe/Berlin] SESSION CONTROLLER::getCurrentPage->Productos
+[29-Dec-2021 21:01:48 Europe/Berlin] SESSION CONTROLLER::getCurrentPage->Productos
+[29-Dec-2021 21:01:48 Europe/Berlin] Productos::construct
+[29-Dec-2021 21:01:48 Europe/Berlin] Conexión a BD exitosa
+[29-Dec-2021 21:01:48 Europe/Berlin] SESSION CONTROLLER::getUserSessionData->Admin
+[29-Dec-2021 21:01:48 Europe/Berlin] Productos::render
+[29-Dec-2021 21:02:00 Europe/Berlin] App php
+[29-Dec-2021 21:02:00 Europe/Berlin] SESSION CONTROLLER::validateSession
+[29-Dec-2021 21:02:00 Europe/Berlin] Conexión a BD exitosa
+[29-Dec-2021 21:02:00 Europe/Berlin] SESSION CONTROLLER::getUserSessionData->Admin
+[29-Dec-2021 21:02:00 Europe/Berlin] SESSION CONTROLLER::getCurrentPage->productos
+[29-Dec-2021 21:02:00 Europe/Berlin] SESSION CONTROLLER::getCurrentPage->productos
+[29-Dec-2021 21:02:00 Europe/Berlin] Productos::construct
+[29-Dec-2021 21:02:00 Europe/Berlin] Conexión a BD exitosa
+[29-Dec-2021 21:02:00 Europe/Berlin] SESSION CONTROLLER::getUserSessionData->Admin
+[29-Dec-2021 21:02:00 Europe/Berlin] getjhgjhg
+[29-Dec-2021 21:02:00 Europe/Berlin] App php
+[29-Dec-2021 21:02:00 Europe/Berlin] SESSION CONTROLLER::validateSession
+[29-Dec-2021 21:02:00 Europe/Berlin] Conexión a BD exitosa
+[29-Dec-2021 21:02:00 Europe/Berlin] SESSION CONTROLLER::getUserSessionData->Admin
+[29-Dec-2021 21:02:00 Europe/Berlin] SESSION CONTROLLER::getCurrentPage->Admin?error=1006
+[29-Dec-2021 21:02:00 Europe/Berlin] SESSION CONTROLLER::getCurrentPage->Admin?error=1006
+[29-Dec-2021 21:02:00 Europe/Berlin] Conexión a BD exitosa
+[29-Dec-2021 21:02:00 Europe/Berlin] SESSION CONTROLLER::getUserSessionData->Admin
+[29-Dec-2021 21:02:00 Europe/Berlin] Conexión a BD exitosa
+[29-Dec-2021 21:02:02 Europe/Berlin] App php
+[29-Dec-2021 21:02:02 Europe/Berlin] SESSION CONTROLLER::validateSession
+[29-Dec-2021 21:02:02 Europe/Berlin] Conexión a BD exitosa
+[29-Dec-2021 21:02:02 Europe/Berlin] SESSION CONTROLLER::getUserSessionData->Admin
+[29-Dec-2021 21:02:02 Europe/Berlin] SESSION CONTROLLER::getCurrentPage->Admin
+[29-Dec-2021 21:02:02 Europe/Berlin] SESSION CONTROLLER::getCurrentPage->Admin
+[29-Dec-2021 21:02:02 Europe/Berlin] Conexión a BD exitosa
+[29-Dec-2021 21:02:02 Europe/Berlin] SESSION CONTROLLER::getUserSessionData->Admin
+[29-Dec-2021 21:02:02 Europe/Berlin] Conexión a BD exitosa
+[29-Dec-2021 21:02:03 Europe/Berlin] App php
+[29-Dec-2021 21:02:03 Europe/Berlin] SESSION CONTROLLER::validateSession
+[29-Dec-2021 21:02:03 Europe/Berlin] Conexión a BD exitosa
+[29-Dec-2021 21:02:03 Europe/Berlin] SESSION CONTROLLER::getUserSessionData->Admin
+[29-Dec-2021 21:02:03 Europe/Berlin] SESSION CONTROLLER::getCurrentPage->Productos
+[29-Dec-2021 21:02:03 Europe/Berlin] SESSION CONTROLLER::getCurrentPage->Productos
+[29-Dec-2021 21:02:03 Europe/Berlin] Productos::construct
+[29-Dec-2021 21:02:03 Europe/Berlin] Conexión a BD exitosa
+[29-Dec-2021 21:02:03 Europe/Berlin] SESSION CONTROLLER::getUserSessionData->Admin
+[29-Dec-2021 21:02:03 Europe/Berlin] Productos::render
+[29-Dec-2021 21:02:25 Europe/Berlin] App php
+[29-Dec-2021 21:02:25 Europe/Berlin] SESSION CONTROLLER::validateSession
+[29-Dec-2021 21:02:25 Europe/Berlin] Conexión a BD exitosa
+[29-Dec-2021 21:02:25 Europe/Berlin] SESSION CONTROLLER::getUserSessionData->Admin
+[29-Dec-2021 21:02:25 Europe/Berlin] SESSION CONTROLLER::getCurrentPage->productos
+[29-Dec-2021 21:02:25 Europe/Berlin] SESSION CONTROLLER::getCurrentPage->productos
+[29-Dec-2021 21:02:25 Europe/Berlin] Productos::construct
+[29-Dec-2021 21:02:25 Europe/Berlin] Conexión a BD exitosa
+[29-Dec-2021 21:02:25 Europe/Berlin] SESSION CONTROLLER::getUserSessionData->Admin
+[29-Dec-2021 21:02:25 Europe/Berlin] getBug
+[29-Dec-2021 21:02:25 Europe/Berlin] Conexión a BD exitosa
+[29-Dec-2021 21:02:25 Europe/Berlin] aqui
+[29-Dec-2021 21:02:25 Europe/Berlin] App php
+[29-Dec-2021 21:02:25 Europe/Berlin] SESSION CONTROLLER::validateSession
+[29-Dec-2021 21:02:25 Europe/Berlin] Conexión a BD exitosa
+[29-Dec-2021 21:02:25 Europe/Berlin] SESSION CONTROLLER::getUserSessionData->Admin
+[29-Dec-2021 21:02:25 Europe/Berlin] SESSION CONTROLLER::getCurrentPage->Admin?success=2002
+[29-Dec-2021 21:02:25 Europe/Berlin] SESSION CONTROLLER::getCurrentPage->Admin?success=2002
+[29-Dec-2021 21:02:25 Europe/Berlin] Conexión a BD exitosa
+[29-Dec-2021 21:02:25 Europe/Berlin] SESSION CONTROLLER::getUserSessionData->Admin
+[29-Dec-2021 21:02:25 Europe/Berlin] Conexión a BD exitosa
+[29-Dec-2021 21:02:29 Europe/Berlin] App php
+[29-Dec-2021 21:02:29 Europe/Berlin] SESSION CONTROLLER::validateSession
+[29-Dec-2021 21:02:29 Europe/Berlin] Conexión a BD exitosa
+[29-Dec-2021 21:02:29 Europe/Berlin] SESSION CONTROLLER::getUserSessionData->Admin
+[29-Dec-2021 21:02:29 Europe/Berlin] SESSION CONTROLLER::getCurrentPage->Productos
+[29-Dec-2021 21:02:29 Europe/Berlin] SESSION CONTROLLER::getCurrentPage->Productos
+[29-Dec-2021 21:02:29 Europe/Berlin] Productos::construct
+[29-Dec-2021 21:02:29 Europe/Berlin] Conexión a BD exitosa
+[29-Dec-2021 21:02:29 Europe/Berlin] SESSION CONTROLLER::getUserSessionData->Admin
+[29-Dec-2021 21:02:29 Europe/Berlin] Productos::render
+[29-Dec-2021 21:02:29 Europe/Berlin] App php
+[29-Dec-2021 21:02:29 Europe/Berlin] SESSION CONTROLLER::validateSession
+[29-Dec-2021 21:02:29 Europe/Berlin] Conexión a BD exitosa
+[29-Dec-2021 21:02:29 Europe/Berlin] SESSION CONTROLLER::getUserSessionData->Admin
+[29-Dec-2021 21:02:29 Europe/Berlin] SESSION CONTROLLER::getCurrentPage->Admin
+[29-Dec-2021 21:02:29 Europe/Berlin] SESSION CONTROLLER::getCurrentPage->Admin
+[29-Dec-2021 21:02:29 Europe/Berlin] Conexión a BD exitosa
+[29-Dec-2021 21:02:29 Europe/Berlin] SESSION CONTROLLER::getUserSessionData->Admin
+[29-Dec-2021 21:02:29 Europe/Berlin] Conexión a BD exitosa
+[29-Dec-2021 21:02:35 Europe/Berlin] App php
+[29-Dec-2021 21:02:35 Europe/Berlin] SESSION CONTROLLER::validateSession
+[29-Dec-2021 21:02:35 Europe/Berlin] Conexión a BD exitosa
+[29-Dec-2021 21:02:35 Europe/Berlin] SESSION CONTROLLER::getUserSessionData->Admin
+[29-Dec-2021 21:02:35 Europe/Berlin] SESSION CONTROLLER::getCurrentPage->Admin
+[29-Dec-2021 21:02:35 Europe/Berlin] SESSION CONTROLLER::getCurrentPage->Admin
+[29-Dec-2021 21:02:35 Europe/Berlin] Conexión a BD exitosa
+[29-Dec-2021 21:02:35 Europe/Berlin] SESSION CONTROLLER::getUserSessionData->Admin
+[29-Dec-2021 21:02:35 Europe/Berlin] Conexión a BD exitosa
+[29-Dec-2021 21:02:41 Europe/Berlin] App php
+[29-Dec-2021 21:02:41 Europe/Berlin] SESSION CONTROLLER::validateSession
+[29-Dec-2021 21:02:41 Europe/Berlin] Conexión a BD exitosa
+[29-Dec-2021 21:02:41 Europe/Berlin] SESSION CONTROLLER::getUserSessionData->Admin
+[29-Dec-2021 21:02:41 Europe/Berlin] SESSION CONTROLLER::getCurrentPage->user
+[29-Dec-2021 21:02:41 Europe/Berlin] SESSION CONTROLLER::getCurrentPage->user
+[29-Dec-2021 21:02:41 Europe/Berlin] Conexión a BD exitosa
+[29-Dec-2021 21:02:41 Europe/Berlin] SESSION CONTROLLER::getUserSessionData->Admin
+[29-Dec-2021 21:02:41 Europe/Berlin] App php
+[29-Dec-2021 21:02:41 Europe/Berlin] SESSION CONTROLLER::validateSession
+[29-Dec-2021 21:02:41 Europe/Berlin] SESSION CONTROLLER::getCurrentPage->Login
+[29-Dec-2021 21:02:41 Europe/Berlin] Login::construct
+[29-Dec-2021 21:02:41 Europe/Berlin] Login::render
+[29-Dec-2021 21:02:41 Europe/Berlin] App php
+[29-Dec-2021 21:02:41 Europe/Berlin] App::construct-> no hay controlador especificado
+[29-Dec-2021 21:02:41 Europe/Berlin] SESSION CONTROLLER::validateSession
+[29-Dec-2021 21:02:41 Europe/Berlin] SESSION CONTROLLER::getCurrentPage->
+[29-Dec-2021 21:02:41 Europe/Berlin] SessionController::validateSession() public page
+[29-Dec-2021 21:02:41 Europe/Berlin] Login::construct
+[29-Dec-2021 21:02:41 Europe/Berlin] Login::render

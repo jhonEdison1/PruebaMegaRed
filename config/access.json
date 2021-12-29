@@ -36,12 +36,12 @@
             "role": "user"
         },
         {
-            "site": "Compra",
+            "site": "Compras",
             "access": "private",
             "role": "user"
         },
         {
-            "site": "Carrito",
+            "site": "Orden",
             "access": "private",
             "role": "user"
         }

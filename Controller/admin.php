@@ -1,5 +1,6 @@
 <?php
-
+require_once 'Models/comprasmodel.php';
+require_once 'Models/ordenmodel.php';
 class Admin extends SessionController{
    
     private $user;
@@ -75,6 +76,33 @@ class Admin extends SessionController{
     }
     function profile() {
         $this->view->render('Admin/profile', [
+            'user' => $this->user
+        ]);
+    }
+
+    function getAllCompras(){
+        $compraModel = new ComprasModel();
+        $compras = $compraModel->getAll();
+        $this->view->render('Admin/compras', [
+            'compras' => $compras,
+            'user' => $this->user
+        ]);
+    }
+
+    function getAllOrders(){
+        $ordenModel = new OrdenModel();
+        $orden = $ordenModel->getAll();
+        $this->view->render('Admin/orders', [
+            'ordenes' => $orden,
+            'user' => $this->user
+        ]);
+    }
+
+    function getAllComprasDates(){
+        $compraModel = new ComprasModel();
+        $dates = $compraModel->getAllDates();
+        $this->view->render('Admin/comprasxdates', [
+            'dates' => $dates,
             'user' => $this->user
         ]);
     }
